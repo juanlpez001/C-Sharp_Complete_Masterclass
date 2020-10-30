@@ -1,0 +1,4251 @@
+C#
+New projetc > Visual C# > Application Console (.Net core)
+C# Case sensitive (Distingue entre mayusculas y minusculas) 
+
+cw + tab tab Console.WriteLine();
+
+TIPOS DE DATOS C#---------------
+Por valor
+Primitivos...
+Enteros - Reales - Booleanos 
+
+Enteros> Valores numericos
+Con signo             Sin signo
+sbyte                 byte -127 y 128
+short                 ushort 
+int                   uint
+long                  ulong (una infinidad)
+
+Reales> Valores numericos
+float                 numeros decimales con parte decimal larga
+double                parte decimal precisa
+decimal               parte decimal larga
+
+Booleanos> expresiones logicas
+true
+false
+
+String                cadena de caracteres (letras)
+char                  un unico caracter 
+
+VARIABLES C#---------------------
+Especificar el tipo de dato
+
+DECLARACION/INICIACION VARIABLES
+EJEMPLO
+int edad; 
+edad=28;
+ 
+o
+
+int edad=28; 
+
+OPERADORES ARITMETICOS C#------------
++    suma / concatenacón de strings + /incremento ++ sumar a un valor numerico
+-    resta /cremento -- restar a un valor numerico
+*    multiplicacion
+/    division
+%    residuo o modulo
+
++=5; incrementar un valor num en 5 unidades.
+
+EJEMPLO:
+Console.WriteLine(7 * 5);
+
+mkdir  [nombre] > crear una carpeta
+cd [nombre]
+\t saltos de columna 
+\n saltos de linea 
+Console.ReadLine();
+INTERPOLACION DE STRINGS
+EJEMPLO
+Console.WriteLine($"Tienes una edad de {edad} años");
+
+Incremento 
+int edad=19;
+edad++; 
+o
+edad  += 8;
+
+
+CONVERSION EXPLICITA: 
+double temperatura = 34.5;
+int temperaturaIbague;
+
+temperaturaIbague = (int) temperatura; // se agrega el tipo de variable en la que quiero convertir ();
+
+Console.WriteLine(temperaturaIbaguue);
+
+CONVERSION IMPLICITA:
+
+
+
+-----------------------------------------------
+        Console.WriteLine("Ingrese el primer numero por consola");
+        int num1 = Console.ReadLine(); 
+Al hacer lo anterior nos marcaría error ya que el readline pertenece a una intrucccion de tipo texto (necesitamos una intrucción tipo numerica)
+
+
+        Console.WriteLine("Ingrese el primer numero por consola");
+        int num1 =Int.Parse(Console.ReadLine());
+ le estamos indicando al programa que convierta parse a entero.
+
+
+
+Variables: son espacios en la memoria del ordenador donde se almacena un valor que podría cambiar durante la ejecución del programa.
+Se ejecuta el valor programa con un valor 3 y podría cambiar a 5 o cualquier otro valor puede variar el valor.
+
+Constante es un espacio en la memoria del ordenador pero no cambia el valor, durante la ejecucion del programa el valor no va a cambiar y se
+
+
+
+
+Para declarar variables de C# utilizamos la palabra reservada const/ el tipo de dato que va a tener almacenado en su interior / luego un nombre identificador:
+las constantes deben declararse e iniciarse en la misma linea.(al cotrario de las variables que se podrían iniciar y declarar su valor más adelante)
+
+Poonemos las constantes en MMAYUSCULA por conveniencia. es una buena practica. 
+
+
+const int valor;
+mantendrá constante. 
+
+------------------- Constantes: ----------------------------------------------
+                                                                            |
+const int VALOR= 5;                                                         |                                                                          -
+const int VALOR2= 7;                                                        |
+                                                                            |
+                                                                            |
+//Console.WriteLine("El valor de la constante es", VALOR);                  |
+Aqui no nos mostraría el valr de la constante al ejecutar el programa       |
+                                                                            |
+Console.WriteLine("El valor de la constante es {0}", VALOR);                |
+                                                                            |
+//Si indicamos entre llaves {0} le indicamos que queremos reflejar el valor |
+de la variable, el valor lo empezamos a contar desde 0 como los arrays.     |
+                                                                            |
+                                                                            |
+Console.WriteLine("El valor de la constante es {1}", VALOR, VALOR2);        |
+//Si le ponemos entre llaves {1} le indicamos al programa que nos refleje   |
+el valor no del parametro cero sino del valor 1 osea que nos va a mostrar el|
+VALOR2                                                                      |
+                                                                            |
+                                                                            |
+----------------------------------------------------------------------------
+
+
+CALCULAR EL AREA DE UN CIRCULO CON CONST: 
+
+
+const double PI = 3.1416;
+
+Console.WriteLine("Introduce el la medida del radio");
+
+doueble radio = dobule.Parse(Console.ReadLine());
+
+double area = radio * radio * PI;
+
+Console.WriteLine("El area del circulo es: ",area);
+
+
+-------------------------------------------------------------
+METODO Math 
+
+Math.Pow(base, exponente);
+
+
+ejemplo 
+double area=Math.Pow(radio, 2)*PI;
+
+
+
+
+METODOS-------------------------------------------
+Los metodos osn grupos de sentencias8instrucciones) a las que se da u nombre identificativo, que realizan una tarea en concreto
+
+tipo  nombre     parametros
+int sumaNumero(){
+int num1 = 7; 
+int num2 = 9; 
+
+int resultado= num1+num2; 
+return resultado;
+}
+
+// los parametros serviran por ejemplo para almacenar los valores que se puedan llegar a ingresar por teclado en consola (int num1, int num2)
+int sumaNumero(int num1, int num2) { 
+int resultado=num1+numm2;
+return resultado;
+} 
+
+void significa que el metodo no devolvera ningun valor 
+void.sumaNumero(){
+int sumaNumero(){
+int num1 = 7; 
+int num2 = 9; 
+
+int resultado= num1+num2;
+Console.WriteLine(resultado);
+}
+
+
+un metodo void nunca lleva return 
+
+
+---------------- METODO VOID (NO DEVUELVE NADA) -------------------------------------------------------------
+
+
+
+        static void Main(string[] args)
+        {
+            mensajeEnPantalla();
+            sumaNumeros(7, 9); //podremos asignarle el valor de los parametros al metodo sumaNumeros(int num1, int num2)
+        }
+
+
+
+
+        static void mensajeEnPantalla()
+        {
+            Console.WriteLine("Mensaje desde el metodo mensajeEnPantalla");
+        }
+
+
+
+
+
+        static void sumaNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La suma de los numeros es: "+(num1 + num2));
+        }
+    }
+
+}
+ el metodo main siempre va a ser el metodo de entrada sin importar que haya un 
+metodo x antes que él
+
+
+
+
+------------------- RETURN (DEVUELVE)-----------------------------------------------------------
+
+
+
+
+        static void Main(string[] args)
+        {
+            mensajeEnPantalla();
+            Console.WriteLine(sumaNumeros(7, 9)); 
+        }
+
+
+
+
+
+
+        static int sumaNumeros(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+    }
+
+Si ejecutamos el programa en la consola no nos va a imprimir el return para que sea posible necesitamos 
+indicarle al programa que lo imprima por medio de un console.writeLine en el metodo Main
+
+
+
+nomenclatura ==>  solo para una linea de codigo (seria como el return)
+
+
+
+
+
+en la sobre carga de metodos, podems tener muchosm metodos con el mismo nombre pero tendrán que tener un numero diferente de parametros o diferente nombre de variable
+asi mismo para llamar especificamente un metdo con sobrecarga es necesario escribir los parametros que tiene 
+
+
+static int suma(int operador1, int operador2, int operador3, int operador4) => (operador 1 + operador2 + operador3 + operador4)
+
+
+static int suma(int operador1, int operador2, int operador3) => (operador 1 + operador2 + operador3)
+
+
+static int suma(int operador1, int operador2) => (operador 1 + operador2)
+
+
+
+Console.WriteLine(suma(5,6,7));
+
+
+
+
+-----------------------------------------------------------------
+PARAMETROS OPCIONALES  
+
+ejemplo 
+int valor1= 7;
+double valor2= 5.2;
+double valor3=8.3; 
+
+Console.WriteLine(Suma(valor1, valor2)); //Console.WriteLine(Suma(valor1, valor2, valor3))
+
+//valor1 se alamacenará en num1, valor 2 en num2 (en los parametros del metodo suma)
+
+suma(int num1, double num2, double num3=0)
+return numm1 + num2 + num3; 
+
+los parammetros opcionales se agregan después los parametros obligatorios
+deben de ir al final y no se pueden intercalar
+
+
+
+----------------------------------------------------------------------+
+Condicional if 
+
+bool NOMBREVARIABLE;
+
+NOMBREVARIABLE=false;
+
+Console.WriteLine(NOMBREVARIABLE); 
+--------------------------------------
+bool haceFrio;
+
+haceFio = true; 
+
+Console.WriteLine(!haceFrio); //! este signo sirve para negar en este caso lo utilizamos para invertir el valor que tiene la variable booleana
+
+//Resultado = false; 
+
+
+== igual que 
+!= diferente que 
+< menor que 
+<= menor o igual que 
+> mayor que 
+=> mayor o igual que 
+>= mayor o igual que
+&& y logico  // permite evaluar varias acciones a la vez, tienen que ser true 
+|| o logico  // permite evaluar una u otra expresion o si no 
+
+
+if(condicion){
+codigo
+}
+
+
+--------------------------------------------------------
+edad de un usuario 
+
+int edad = 15;
+
+Console.WriteLine("Vamos a evaluar si eres mayor de edad");
+
+if(edad>=18){
+Console.WriteLine("eres mayor de edad");
+}
+
+
+
+------------------------------------------------------
+Console.WriteLine("Vamos a evaluar si puedes conducir un vehiculo");
+
+Console.WriteLine("Introduce tu edad, por favor");
+
+int edad = Int32.Parse(Console.ReadLine());
+
+Console.WriteLine("¿tienes carnet?") 
+
+string carnet = Console.WriteLine();
+
+if(edad>=18 && carnet="si"){
+ Console.WriteLine("Puedes conducir vehiculos");
+}
+else{ 
+ Console.WriteLine("No puedes conducir vehiculos");
+}
+
+-----------------------------------------------------
+
+
+string carnet ="no";
+
+//el valor no de string carnet será sobreescrito más adelante en caso de que sea si
+para poder ejecutar los if de otra manera daría error 
+
+
+
+Console.WriteLine("Vamos a evaluar si puedes conducir un vehiculo");
+
+Console.WriteLine("Introduce tu edad, por favor");
+
+int edad = Int32.Parse(Console.ReadLine());
+
+if (edad >= 18){ //en caso de que sea mayor a 18 le preguntará si tiene carnet.
+
+Console.WriteLine("¿tienes carnet?") 
+}
+
+carnet = Console.WriteLine();
+
+if(edad>=18 && carnet="si"){
+ Console.WriteLine("Puedes conducir vehiculos");
+}
+else{ 
+ Console.WriteLine("No puedes conducir vehiculos");
+}
+
+
+
+--------------------------------------
+if anidado (condicional if dentro de otro condicional if)
+
+
+
+Console.WriteLine("Vamos a evaluar si puedes conducir un vehiculo");
+
+Console.WriteLine("Introduce tu edad, por favor");
+
+int edad = Int32.Parse(Console.ReadLine());
+
+if(edad< 18) Console.WriteLine("No puedes conducir vehiculos");
+else
+{
+Console.WriteLine("Tienes carnet?");
+
+string carnet = Console.ReadLine();
+
+int comparar=String.Compare(carnet, "si", "true");// compara dos cadenas de caracteres y devuelve un valor  el tercer caso ignorará minusculas o mayusculas
+
+if(compara == 0) Console.WriteLine("Puedes conducir vehiculos");
+
+Else Console.WriteLine("Lo siento no puedes conducir vehiculos");
+
+}
+
+nunca puede haber un else sin un if, pero si if sin else
+
+
+
+-----------------------------------------
+operador logico o || 
+
+Calcular la media de la nota de un alumno
+
+
+Consle.WriteLine("Introduce el primer parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+
+Consle.WriteLine("Introduce el segundo parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+
+Consle.WriteLine("Introduce el tercer parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+if (parcial1>=5 $$ parcial2>=5 && parcial>=5)
+ 
+  Console.WriteLine("La nota media es: " + (parcial1+parcial2+parcial3)/3);
+
+else Cnsole.WriteLine("Vuelve en septiembre");
+
+El caso nos dice que tenemos que aprobar los tres parciales sobre 5 para poder ejecutar
+la instruccion (if) para hacer la media de los parciales, de lo contrario nos mostrará
+un mensaje que nos indica que volvamos en septiembre. 
+
+
+--------------------------------- 
+
+Consle.WriteLine("Introduce el primer parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+
+Consle.WriteLine("Introduce el segundo parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+
+Consle.WriteLine("Introduce el tercer parcial"); 
+int parcial int32.Parse(Console.RedLine());
+
+if (parcial1>=5 || parcial2>=5 || parcial>=5)
+ 
+  Console.WriteLine("La nota media es: " + (parcial1+parcial2+parcial3)/3);
+
+else Cnsole.WriteLine("Vuelve en septiembre");
+
+Nos exige aprobar cualquiera de los 3 parciales para que haga la media 
+
+---------------------------------------------
+Estructura else if 
+para usar if encadenados para evaluar condiciones una tras la otra
+
+Console.WriteLine("Introduce tu edad");
+
+int edad=Int32.Parse(Console.ReadLine());
+
+if(edad<18) Console.WriteLine("Eres un niño");
+
+else if(edad<30) Console.WriteLine("Eres joven");
+
+else if(edad<60) Console.WriteLine("Eres un maduro");
+
+else Console.Writeline("Debes cuidarte");
+
+En este caso al no cumplirse una la primera condición pasará a la siguiente y si se
+cumple se saldrá del bloque de condiciones. 
+
+
+----------------------------------------------------------------
+estructura switch 
+
+
+----------------------------------------------------------------------------------------------------
+BUCLES:	
+
+permmiten repetir la ejecucion de lineas de codigo de un numero determinado 
+o indeterminado de veces: 
+
+
+BLUCLES determinados, sabemos cuantas veces repetira el codigo. 
+FOR
+
+BLUCES indeterminados: no sabemos cuantas veceres repetirá el codigo
+WHILE -  DO-WHILE
+
+
+
+while(condicion a evaluar){
+       codigo a repetir
+}
+
+
+EJEMPLO 
+COnsole.WriteLine("¿Deseas entrar en el bucle while?"); 
+string respuesta = Console.ReadLine(); 
+
+while (respuesta != "no"){
+
+ Console.WriteLine("Estás dentro del bucle while"); 
+
+ Console.WriteLine("Escribe tu nombre"); 
+
+ string nombre=Console.ReadLine();
+
+ Console.WriteLine($"Tu nombre es: " {nombre} "Saldrás del bucle cuando escribas no");
+ 
+ Console.WriteLine("Quieres seguir en el bucle?"); 
+
+ respuesta=Console.ReadLine(); 
+}
+
+Console.WriteLine("Has salido del bucle");
+
+------------------------------------------------
+NUMERO ALEATORIO 
+
+Random numero = new Random();
+
+int aleatorio = numero.Next(0, 100);
+
+int minumero = 101;
+
+int intentos = 0;
+
+
+Console.WriteLine("introduce un n entre 0 y 100");
+
+while(aleatorio != minumero)
+{
+intentos++;
+
+minumero = int.Parse(Console.ReadLine());
+
+if (minumero> aleatorio) Console.WriteLine("El n es más bajo");
+
+if (minumero < aleatorio) Console.WriteLine("el n es más alto");
+}
+Console.WriteLine($"correcto! has necesitado {intentos} intentos");
+
+----------------------------------
+
+BUCLE DO WHILE (HAZ MIENTRAS)
+
+ejecutara el codigo de su interior al menoz una vez, aunque la condicion sea falsa
+
+
+EJEMPLO
+
+int z= 10;
+
+
+while (z < 10) 
+{
+
+  Console.WriteLine("Impresión" + z);  //Asi no ejecutará el codigo del interior porque la condicion es falsa
+                                         Z no es menor que 10, Z es igual a 10
+
+  z++; 
+
+
+}
+
+La condicion siempre irá al final: 
+
+EJEMPLO: 
+
+
+
+int z= 10;
+
+
+do{
+
+  Console.WriteLine("Impresión" + z);  
+
+  z++; 
+
+
+} 
+while (z < 10) ;
+-------------------------------------------------------
+EXCEPCIONES 
+------------------------------------------------------
+Es un error en tiempo de ejecución del programa quse escapan al control del 
+prgramador
+
+Memoria corrupta
+Desbordamiento de pila 
+sectores de disco duro defectuosos 
+conexiones a bd interrupidas 
+acceso a ficheros inexistentes 
+
+---
+Bloque try catch en el que diremos a nuestro programa que hacer en caso de que 
+haya una excpecion (error) y que siga el flujo del programma 
+
+Try- intentar
+Catch - captura 
+
+
+
+try {
+
+
+ linea de codigo que genera error 
+
+}
+catch(FormatException ex)
+{
+
+
+AQUI LE INDICAMOS AL PROGRAMA LO QUE DEBE DE HACER 
+VARIABLE=0; En caso de que el try no se lleva a cabo entonces
+iniciamos la variable en 0;
+
+try{
+    //código que se intenta 
+
+}catch (FormatException e){
+
+   //código que se ejecuta si hay excepcion 
+
+
+} 
+
+
+
+}
+
+
+
+todo try debe ir acompañado por un catch 
+
+
+
+Try{
+     //Codigo a intentar
+
+}catch(FormatException e){
+    //Codigo a ejecutar si hay FormatException
+}catch(overFlowExeption e){
+    //Codigo a ejecutar si hay OverFlowException              cw.   ejemplo: has introducido u
+}
+ valor no valido
+
+-----------------------------------------------------------------------------------
+
+
+Si nos da error porque la variable no está iniciada, debemos inicirla en cada try y catch
+
+
+
+
+----------------------------------------------
+Jerarquia > Herencia de excepciones 
+
+
+            Exception 
+                |
+          SystemException
+                |
+FormatException-+-OverFlowException
+
+
+------------------------------------------------
+Si hay 15 excepciones en vez de hacer 15 bloques try catch podriamos hacer uno solo  capturando Exception
+que es el padre de todas las exceptions 
+
+try{
+     minumero = int.Parse(console.ReadLine());
+}
+catch(Exception ex) 
+{
+
+Console.WriteLine("El valor ingresado no es valido");
+
+}
+
+ex-> es un objeto en la excepcion de manera que lo podemos llamar mas adelante
+con un Console.WriteLine(e.Message); para que nos muestre en consola que texcepcion es, o cual es el problema
+
+
+
+
+captura generica (Exception e)
+
+
+-------------------------------------------------
+
+Conflictos varias excepciones
+---------------------------------------------------
+
+
+
+
+Random numero = new Random();
+
+int aleatorio = numero.Next(0, 100);
+
+int minumero = 101;
+
+int intentos = 0;
+
+
+Console.WriteLine("introduce un n entre 0 y 100");
+
+
+while(aleatorio != minumero)
+{
+intentos++;
+
+
+try { 
+
+    minumero = int.Parse(Console.ReadLine());
+}
+
+catch (Exception e){ 
+
+       Console.WriteLine("El numero introducido no es un valor valido, se tomará como 0");
+       Console.WriteLine(e.Message); 
+       minumero=0;
+
+} 
+
+
+
+if (minumero> aleatorio) Console.WriteLine("El n es más bajo");
+
+if (minumero < aleatorio) Console.WriteLine("el n es más alto");
+}
+
+
+Console.WriteLine($"correcto! has necesitado {intentos} intentos");
+
+-------------------------------------------------------------------
+
+Primero van las excepciones espeficicas (FormatException) que las genericas
+(Exception) para el correcto funcionamiento. 
+
+En caso de una excepción, el programa busca la excepcion que más se adecue a la exepcion
+la primera que encuentre y se adecue a la excepcion ignorando otras 
+
+
+
+Random numero = new Random();
+
+int aleatorio = numero.Next(0, 100);
+
+int minumero = 101;
+
+int intentos = 0;
+
+
+Console.WriteLine("introduce un n entre 0 y 100");
+
+
+while(aleatorio != minumero)
+{
+intentos++;
+
+
+try { 
+
+    minumero = int.Parse(Console.ReadLine());
+}
+
+catch (FormatException e) 
+{
+       Console.WriteLine("Has introdducido text0");
+       minumero=0; 
+
+     
+
+catch (Exception e){   //si utilizamos este tipo de excepcion las demas excepciones van a quedar cubiertas (no serviran)
+
+       Console.WriteLine("El numero introducido no es un valor valido, se tomará como 0");
+       Console.WriteLine(e.Message); 
+       minumero=0;
+
+}
+
+----------------------------------------------
+Filtros 
+
+Random numero = new Random();
+
+int aleatorio = numero.Next(0, 100);
+
+int minumero = 101;
+
+int intentos = 0;
+
+
+Console.WriteLine("introduce un n entre 0 y 100");
+
+
+while(aleatorio != minumero)
+{
+intentos++;
+
+
+try { 
+
+    minumero = int.Parse(Console.ReadLine());
+}
+
+catch (FormatException e) 
+{
+       Console.WriteLine("Has introdducido text0");
+       minumero=0; 
+
+     
+
+catch (Exception e) when (e.GetType()!=typeof(FormatException))  
+
+//Cualquier valor introducido (GetType) diferente de FormatException entrara en el flujo 
+de catch Exception y ejecutará lo que hay dentro. Aqui ejecutará lo que hay dentro de este catch.
+
+{ 
+ //si utilizamos este tipo de excepcion las demas excepciones van a quedar cubiertas (no serviran)
+
+       Console.WriteLine("El numero introducido no es un valor valido, se tomará como 0");
+       Console.WriteLine(e.Message); 
+       minumero=0;
+
+}
+
+cath(FormatException e) 
+     Console.WriteLine("Has introducido texto");
+     minumero = 0;
+ 
+
+
+
+if (minumero> aleatorio) Console.WriteLine("El n es más bajo");
+
+if (minumero < aleatorio) Console.WriteLine("el n es más alto");
+}
+
+
+Console.WriteLine($"correcto! has necesitado {intentos} intentos");
+
+
+
+if (minumero> aleatorio) Console.WriteLine("El n es más bajo");
+
+if (minumero < aleatorio) Console.WriteLine("el n es más alto");
+}
+
+
+Console.WriteLine($"correcto! has necesitado {intentos} intentos");
+
+
+
+
+
+checked
+
+                
+int numero = int.MaxValue;
+                
+int resultado = numero + 20;
+                
+Console.WriteLine(resultado);
+
+
+Esto generará un desbordamiento porque le sumará al valor maximo de integer + 20 
+generando un error o excepción que será tratada por C# dandonos un valor falso
+por rendimiento, pero si queremos que genere el error que le corresponde y 
+se debería de generar utilizamos checked:
+
+ checked
+            {
+                int numero = int.MaxValue;
+                int resultado = numero + 20;
+                Console.WriteLine(resultado);
+            }
+
+
+ó
+
+
+                int numero = int.MaxValue;
+                int resultado = checked(numero + 20);
+                Console.WriteLine(resultado);
+
+------------------------------
+Excepciones checked y undchecked ---- throw 
+
+si querems que se salte la excepcion overflow le ponemos unchecked 
+
+funcionar con integer y Long
+
+
+podemos forzar a un progama a que lance excepciones +
+
+
+------------------------------
+throw
+
+Console.WriteLine("Introduce número del mes");
+
+            int NumeroMes = int.Parse(Console.ReadLine());
+
+            try
+            {
+
+                Console.WriteLine(NombreDelMes(NumeroMes));
+
+            }
+
+            catch(Exception e)
+            {
+                Console.WriteLine("Error: "+ e.Message);
+            }
+
+            Console.WriteLine("Aqui continuara la ejecucion del resto del programa.");
+
+        }
+
+
+        public static string NombreDelMes(int mes)
+        {
+            switch (mes)
+            {
+                case 1:
+                    return "Enero";
+
+                case 2:
+                    return "Febrero";
+                case 3:
+                    return "Marzo";
+                case 4:
+                    return "Abril";
+                case 5:
+                    return "Mayo";
+                case 6:
+                    return "Junio";
+                case 7:
+                    return "Julio";
+                case 8:
+                    return "Agosto";
+                case 9:
+                    return "Septiembre";
+                case 10:
+                    return "Octubre";
+                case 11:
+                    return "Noviembre";
+                case 12:
+                    return "Diciembre";
+
+                default:
+                    throw new ArgumentOutOfRangeException();   
+            }
+
+        }
+    }
+}
+
+
+
+
+----------------------------------------------------------------
+Finally bloque 
+
+
+try { 
+      // codigo que se intenta   // si hay exito en el flujo ignora el catch
+
+}catch (Exception e){
+     // codigo que se ejecuta si hay excepcion 
+
+
+}
+finally{
+
+       //codigo que se ejecuta siempre 
+
+} 
+
+
+esto es para BBDD 
+y Lectura de ficheros externos 
+se usa para liberar recursos. 
+
+
+
+EJEMPLO: 
+
+vamos a abrir una conexion con un archivo y luego lo cerraremos para liberar
+recursos.
+
+El espacio de nombres System.IO contiene tipos que permiten leer y escribir 
+en los archivos y secuencias de datos, así como tipos que proporcionan
+ compatibilidad básica con los archivos y directorios.
+
+
+StreamReader:
+Implementa un TextReader que lee los caracteres de una secuencia 
+de bytes en una codificación determinada.
+
+
+
+
+////////////////////////////////////////////////////////////////////
+        static void Main(string[] args)
+        {
+            System.IO.StreamReader archivo = null;              //para lee archivos e iniciamos la instancia archivo que sea null 
+                                                                abre un canal para acceder al archivo y se almacenará en archivo. 
+
+            try
+            {
+                string linea;                                   // se almacenaran las lineas que tiene el fichero 
+                int contador = 0;                               // para ir de linea en linea 
+                string path = @"F:\C#\150Exercises-master\bloqueFinally\ejemplo.txt";                     //para acceder al archivo abriendo el canal 
+
+                archivo = new System.IO.StreamReader(path);                                               path es donde se almacena la direccion 
+                while((linea = archivo.ReadLine()) != null)                      //mientras haya lineas en el archivo y sea diferente de null
+                    {
+                    Console.WriteLine(linea);                                    //escribir (linea) 
+
+                    contador++; 
+                }
+            } catch (Exception e)
+            {
+                Console.WriteLine("Error con la lectura del archivo");
+            
+
+
+            }
+        }
+    }
+}
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+Con Finally
+
+        static void Main(string[] args)
+        {
+            System.IO.StreamReader archivo = null;
+
+            try
+            {
+                string linea;
+                int contador = 0;
+                string path = @"F:\C#\150Exercises-master\bloqueFinally\ejemplo.txt";
+
+                archivo = new System.IO.StreamReader(path);
+                while((linea = archivo.ReadLine()) != null)
+                    {
+                    Console.WriteLine(linea);
+
+                    contador++; 
+                }
+            } catch (Exception e)
+            {
+                Console.WriteLine("Error con la lectura del archivo");
+
+            }
+            finally
+            {
+                if (archivo != null) archivo.Close();
+                Console.WriteLine("Conexion con el fichero cerrada");           //se cierra la conexion y se va a ejecutar siempre eset codigo
+            }
+        }
+    }
+}
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+POO (PROGRAMACION ORIENTADA A OBJETOS) 
+
+                                      
+                                  PARADIGMAS DE LA PROGRAMACION 
+                                                 |
+                P. ORIENTADA A PROCEDIMIENTOS----+-----P. ORIENTADA A OBJETOS 
+                    HACE 30 AÑOS SE USABA           NECESIDAD DE SOLVENTAR PROBLEMAS              
+
+
+
+P. ORIENTADA A PROCEDIMIENTOS 
+lenguajes: 
+Fortan, Cobol, Basic, etc. 
+
+Desventajas: 
+
+unidades de codigo muy grandes en aplicaciones complejas
+
+en aplicaciones complejas el codidgo resultaba dificil de descifraar 
+
+poco reutilizable 
+
+si existe fallo en una linea el problema cae 
+
+aparicion frecuente de codigo espagueti  
+
+dificil de deporar por otros programadores en caso de necesidad o error 
+
+
+
+
+
+consiste en trasladar la naturaleza de os objetos de la vida real al codigo de programación 
+
+
+los objetos tienen un estado, comportamiento y propiedades. 
+
+
+
+Coche: 
+
+El estado de un coche: Puede estar parado, circulando o aparcado. 
+
+Propiedades de un coche: tiene color, peso tamaño. 
+
+comportamiento. puede arrancar, frenal, acelerar, girar. 
+
+
+
+ventajas 
+
+clases- modulos partes o trozos: hace que sea reutilizable. herencia 
+
+si existe fallo en una linea el programa continuará se tratan las exepciones
+
+Encapsulamiento. 
+
+
+
+Ejemplo: 
+
+P.O procedimientos un equipo de sonido si se estropeo alguna parte toca repararlo entero 
+
+P.O.O  una torre de sonido dividida en modulos, si se daña alguna parte puedo safar la parte dañada y llevarla a reparar mientras
+uso otra parte. 
+
+
+CLASS REPRODUCTOR_CD
+
+CLASS RADIO 
+CLASS CONTROLES AUDIO 
+CLASS ECUALIZADOR
+CLASS PRETINAS 
+
+
+
+
+MODIFICADORES DE ACCESO C#
+
+       PUBLIC 
+ACCESIBLE DESDE CUALQUIER PARTE
+
+      PRIVATE
+ACCESIBLE DDESDE LA PROPIA CLASE
+
+      PROTECTED
+ACCESIBLE DESDE LA CLASE DERIVADA
+
+     INTERNAL 
+ACCESIBLE ESDE EL MISMO ENSAMBLADO
+
+     PROTECTED INTERNAL
+ACCESIBLE DESDE EL MISMO ENSAMBLADO O CLASE
+DERIVADA DE OTRO ENSAMBLADO
+
+    PRIVATE PROTECTED
+ACCESIBLE DESDE LA MISMA CLASE O CLASE DERIVADA 
+DEL MISMO ENSAMBLADDO 
+
+    POR DEFECTO
+ACCESIBLE DESDE EL MISMO PAQUETE 
+
+
+Clase es el modelo donde se redactan las caracteristicas comunes de un coche 
+
+Ejemplo coche: 
+comparten chasiz, ruedas, motor - clase una plantilla a partir de donde construimos 
+
+
+objeto, pueden tener diferencias en comun, color, eso alto largo >atributos
+
+comportamiento, arrancar, frenar, girar, acelerar >los objetos tienen comportamiento 
+
+
+
+
+
+nomenclatura de punto, acceder a propiedades y comportamietos de un objeto:
+
+(pseudocodigo) 
+Propiedades:
+Renault.color="rojo";
+Renault.peso=1500;
+Renault.ancho?2000;
+Renault.alto=900; 
+
+
+Comportamiento: 
+Renault.arranca();
+Renault.frena();
+Renault.gira();
+Renault.acelera();
+
+
+EJEMPLO
+
+namespace EjemploPOO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Circulo miCirculo; //creacion de objeto de tipo circulo o variable objeto de tipo circulo.
+                               // es de tipo circulo
+            miCirculo = new Circulo(); // iniciacion de variable/objeto de tipo circulo
+                                       // ya le dimos valor a la variable miCirculo, esto se le llama instancia o ejemplarización 
+
+            //3. 
+            Console.WriteLine(miCirculo.calculoArea(3));  //1. Encapsulación no se puede acceder a la clase Circulo.
+
+            Circulo miCirculo2 = new Circulo();  //un segundo objeto perteneciente a la clase Circulo.
+
+            Console.WriteLine(miCirculo2.calculoArea(9));  //segundo objeto con comportamiento calculoArea. 
+
+            
+        }
+
+    }
+
+    class Circulo
+    {
+        const double pi = 3.1416;  //Propiedad de la clase circulo. Esto es un campo de clase.
+                                   //si le agregamos const, ese valor no se podrá cambiar el valor de pi 
+
+        public double calculoArea(int radio) //2. si le antecedemos la palabra public a double podemos acceder a esta clase
+                                             //desde otra
+        {
+
+            return pi * radio * radio;
+        }
+
+
+    }
+    //Circulo tiene la propiedad pi y el metodo calculoArea
+
+    //Circulo <- es la clase 
+    //miCirculo1, miCirculo2<-Son objetos
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------
+ENCAPSULACIÓN 
+
+namespace EjemploPOO2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Circulo miCirculo;
+
+            miCirculo = new Circulo();
+
+            Console.WriteLine(miCirculo.CalculoArea(3));
+
+            Circulo miCirculo2 = new Circulo();
+
+            Console.WriteLine(miCirculo2.CalculoArea(9));
+
+        }
+
+    }
+
+    class Circulo
+    {
+        private const double pi = 3.1416;  //para encapsular solo es necesario poner private. 
+        //encapsular lo usamos para las variables, constantes para impedir que se modifique y se pueda ver o usar. 
+
+        public double CalculoArea(int radio)
+        {
+
+            return pi * radio * radio;
+        }
+
+    }
+    /*CONVENCIONES A LA HORA DE PROGRAMAR:
+     * Los identificadores "Public deben de comenzar con letra mayuscula. 
+     * Notacion. "PascalCase". 
+     * Ejemplo: public double CalculoArea(){...
+     * 
+     * Los identificadores que no son "public" ddeben comenzar por letra minuscula.
+     * Notacion. "camelCase".
+     * Ej. longitudRadio*/
+
+
+
+----------------------------------------------------------------------------------------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //una vez hecho todo, vamos a construir el coche. 
+            Coche coche1 = new Coche();
+            //Nombre de la clase      //Nombre Objeto/instancia   = new nombre constructor; 
+            //esto crea un objeto o instancia perteneciente a la clase coche.
+            //le dimos un estado inicial al coche. 
+
+            Coche coche2 = new Coche();
+            Console.WriteLine(coche1.getRuedas());   //para ver cuantas ruedas tiene, no podemos acceder ya que ruedas 
+                                                     // está en private
+
+            Console.WriteLine(coche1.getInformacionCoche()); //Muestra información del coche
+
+
+            /*NOTA: no es bueno poner en public las propiedades sino que hay que crear un metodo de acceso. 
+            porque se podrá modificar con public en la propiedad la propiedad*/ 
+        }
+    }
+    class Coche
+    {   //Constructor y que sea accesible desde fuera de la clase 
+        public Coche()
+        {
+            //comportamientos iniciales. 
+            ruedas = 4;
+            largo = 2300.5;
+            ancho = 0.800;
+
+
+        }
+        //Metodo de acceso 
+        public int getRuedas() //metodos getter son metodos que nos dan información de propiedades. 
+        {
+            return ruedas;
+        }
+
+        public String getInformacionCoche()  /*Tambien podemos crear un metodo get para que muestre informacion concatenando
+                                             propiedaddes del coche y retornandolas*/
+        {
+        return ("La información del coche es la siguiente:\n"+"Ruedas: " +ruedas +" Largo: "+largo+ " Ancho: "+ancho );
+        }
+
+
+
+
+        private int ruedas;
+        private double largo;
+        private double ancho;
+        private bool climatizador;  //algunos coches tienen y otros no V o F; 
+        private string tapiceria; 
+
+
+
+    }
+}
+
+
+
+
+
+
+
+----------------------------------
+Ahora para generear un constructor que tenga diferentes propiedad
+---------------------------------------------------------------------------------------------------------------
+SOBRECARGA DE CONSTRUCTORES
+--------------------------------------------------------------------------------------------------------
+cuando la clase tiene más de un constructor se le llama sobre carga de constructores 
+cada constructor debe de recibir diferente numero de parametros.
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //una vez hecho todo, vamos a construir el coche. 
+            Coche coche1 = new Coche();
+            //Nombre de la clase      //Nombre Objeto/instancia   = new nombre constructor; 
+            //esto crea un objeto o instancia perteneciente a la clase coche.
+            //le dimos un estado inicial al coche. 
+
+            Coche coche2 = new Coche();
+            Console.WriteLine(coche1.getRuedas());   //para ver cuantas ruedas tiene, no podemos acceder ya que ruedas 
+                                                     // está en private
+
+            Console.WriteLine(coche1.getInformacionCoche()); //Muestra información del coche
+
+
+           Coche coche3 = new Coche(4.25, 1200.35);   //Son los parametros que quise poner largo y ancho, son los unicos qu van a cambiar
+                                                      //va a seguir teniendo la misma cantidad de ruedas pero modificando el largo y ancho
+            Console.WriteLine(coche3.getInformacionCoche());
+
+            /*NOTA: no es bueno poner en public las propiedades sino que hay que crear un metodo de acceso. 
+            porque se podrá modificar con public en la propiedad la propiedad*/
+        }
+    }
+    class Coche
+    {   //Constructor y que sea accesible desde fuera de la clase 
+        public Coche()
+        {
+            //comportamientos iniciales. 
+            ruedas = 4;
+            largo = 2300.5;
+            ancho = 0.800;
+
+        }
+        public Coche(double largoCoche, double anchoCoche)
+        {
+            ruedas = 4; 
+
+            largo = largoCoche; //largo va a ser igual al parametro que le voy a pasar a Coche 
+            ancho = anchoCoche;  //ancho va a ser igual al parametro que ponga en Coche 
+        }
+        //Metodo de acceso 
+        public int getRuedas() //metodos getter son metodos que nos dan información de propiedades. 
+        {
+            return ruedas;
+        }
+
+        public String getInformacionCoche()  /*Tambien podemos crear un metodo get para que muestre informacion concatenando
+                                             propiedaddes del coche y retornandolas*/
+        {
+            return ("La información del coche es la siguiente:\n" + "Ruedas: " + ruedas + " Largo: " + largo + " Ancho: " + ancho);
+        }
+
+
+
+
+        private int ruedas;
+        private double largo;
+        private double ancho;
+        private bool climatizador;  //algunos coches tienen y otros no V o F; 
+        private string tapiceria;
+
+
+
+    }
+}
+
+se puede apreciar que cambiamos el estado inicial de ancho y largo a nuestro gusto.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+METODOS GETTERS Y SETTERS 
+
+this.
+
+
+CONSTRUCTOR POR DEFECTO 
+
+namespace ConceptosPOO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            realizarTarea();
+        }
+
+        static void realizarTarea()
+        {
+            Punto origen = new Punto();  //constructor por defecto
+
+            Punto destino = new Punto(128, 80);
+        }
+    }
+}
+
+
+---------------------------------------------------
+OTRA CLASE 
+namespace ConceptosPOO
+{
+    class Punto
+    {
+
+        public Punto(int x, int y)
+        {
+            Console.WriteLine($"Coordenada x:  {x},  Coordenada y:  { y}");
+        }
+        public Punto()
+        {
+            Console.WriteLine("Este es el constructor por defecto");
+        }
+    }
+}
+
+
+
+-------------------------------------------------
+LLAMADA DE METODOS Y CLASE MATH
+
+
+
+-------------------------------------------------
+Clases anonimas
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //realizarTarea();
+
+            // double raiz = Math.Sqrt(9);
+            /*Gracias a que importamos el  metodo estatico math 
+            No hay necesidad de llamar a la clase Math*/
+            double raiz = Sqrt(9);
+            double potencia = Pow(3, 4);
+
+
+            var miVariable = new { nombre = "Juan", Edad = 19 }; //clase anonima
+            //decimos que es anonima porque después de new no hay ningun nombre
+
+            Console.WriteLine(miVariable.Edad); //para acceder a edad
+
+            //double potencia = Math.Pow(3, 4);
+
+            WriteLine(raiz);
+            WriteLine(potencia);
+
+        }
+
+        static void realizarTarea()
+        {
+            Punto origen = new Punto();  //constructor por defecto
+
+            Punto destino = new Punto(128, 80);
+
+            Punto otroPunto = new Punto();
+
+            double distancia = origen.DistanciaHasta(destino);
+            //almacenamos la distancia entre origen y destino x, y 
+            //distancia = origen que es nuestro primer objeto. objeto Distancia hasta destino
+
+
+
+            Console.WriteLine($"La distancia entre los puntos es de: {distancia}");
+
+            Console.WriteLine($"Numero de objetos creados: {Punto.ContadorDeObjetos()} ");
+
+        }
+    }
+}
+Solo pueden contener campos publicos
+todos los campos deben estar iniciados
+no pueden ser static 
+no se pueden definir metodos
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+ARRAYS
+
+SON ESTRUCTURAS DE DATOS QUE CONTIENEN UNA COLECCION DE VALORES DEL MISMO TIPO 
+
+
+PARA QUE? PARA ALMACENAR VALORES QUE NORMALMENTE TIENEN ALGUNA RELACIÓN ENTRE SI 
+
+SINTAXIS
+
+. DECLARACIÓN   : int[] mi_matriz; 
+
+. INICIACIÓN : mi_matriz= new int [4]; (cantidad de valores que almacena en su interior)
+va a almacenar 4 numeros enteros en su interior 
+
+
+int[] mi_matriz = new int [4];
+
+
+
+ejemplo: 
+
+mi_matriz[0]=15; 15 almacenado en la posicion 0
+mi_matriz[1]=25;
+mi_matriz[2]=35;
+mi_matriz[3]=45;
+mi_matriz[4]=55;
+
+
+
+------------------------------
+int [] mi_matriz={15, 15, 35, 45, 55}; 
+
+
+namespace Arrays1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] edades;
+
+            edades = new int[4];
+
+
+            edades[0] = 15;
+            edades[2] = 25;
+            edades[3] = 35;
+
+            /*O 
+             * 
+             * int[] edades = new int {15, 27, 19, 80}
+             * 
+             * cw(edades[2]);  */
+            Console.WriteLine(edades[2]);
+        
+        }
+    }
+}
+
+
+------------------------------------------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Array implicito : no especificamos ni el tipo de dato que almacena ni cuantos
+            //ni cuantos elementos va a tener el array
+
+            var datos = new[] { "Juan", "López", "Colombia" };
+
+            /*Array de objetos*/
+            Empleados[] arrayEmpleados = new Empleados[2];
+            //objetos almacenados en array empleados 
+            //tipo dato   nombre array    especificar cuantos objetos va a tener en su interior
+
+            arrayEmpleados[0] = new Empleados("Pablo", 18);
+
+            /*Array de tipos o clases anonimas*/
+
+            var personas = new[]
+            {
+                new{Nombre="Juan", Edad=19 },
+
+                new{Nombre="Maria", Edad=49},
+
+                new{Nombre="Pablo", Edad=35}
+
+            };
+            Console.WriteLine(personas[1]);
+
+
+        }
+    }
+    class Empleados
+    {
+        public Empleados(String nombre, int edad)
+        {
+            this.nombre = nombre;
+            this.edad = edad; 
+        }
+
+        string nombre;
+        int edad; 
+    }
+   
+}
+
+
+-----------------------------------------------------------
+
+bucle for 
+
+
+
+
+
+
+for(int i=0; i<=8; i++) }
+
+//codigo interior bucle fofr
+
+}
+sirve para repetir el codigo del interior un numero de veces 
+
+3 partes
+
+for  iniciación del bucle, condicion del bucle (hasta cuando va a repetir), incremento/decremento bucle
+el codigo se ejecuta antes de hacer el incremento
+     
+
+
+
+
+
+
+
+
+var valores = new[] { 15, 25, 35, 45, 55 };
+
+
+
+
+//ARRAY VALORES 
+            for(int i=0; i < 5; i++)
+            {
+                Console.WriteLine(valores[i]);
+            }
+
+
+
+----------------------------------------------------------------
+BUCLE FOREACH
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Array implicito : no especificamos ni el tipo de dato que almacena ni cuantos
+            //ni cuantos elementos va a tener el array
+
+            //var datos = new[] { "Juan", "López", "Colombia" };
+
+            var valores = new[] { 15, 25, 35, 45, 55 };
+
+            /*Array de objetos*/
+            Empleados[] arrayEmpleados = new Empleados[2];
+            //objetos almacenados en array empleados 
+            //tipo dato   nombre array    especificar cuantos objetos va a tener en su interior
+
+            arrayEmpleados[0] = new Empleados("Pablo", 18);
+            arrayEmpleados[1] = new Empleados("Juan", 18);
+
+            /*Array de tipos o clases anonimas*/
+
+            /* 
+            *var personas = new[]
+            {
+                new{Nombre="Juan", Edad=19 },
+
+                new{Nombre="Maria", Edad=49},
+
+                new{Nombre="Pablo", Edad=35}
+
+            };
+            Console.WriteLine(personas[1]); */
+            //ARRAY VALORES 
+            for (int i = 0; i <arrayEmpleados.Length; i++) /*longitud del array, va a ir hasta la longitud del array. si hay 400 
+                                                      elementos, entonces valores irá hasta la posición 400 sirve si no sabemos la longitud del array*/
+                                                    
+            {
+                Console.WriteLine(arrayEmpleados[i].nombre); //solo imprime los objetos //tenemos que poner public en las variables 
+                //Es una mala practica porque si ponemos public, se puede modificar desde fuera la variable de cualquier manera
+
+                Console.WriteLine(arrayEmpleados[i].edad);
+            }
+
+
+
+
+
+        }
+    } 
+    class Empleados
+    {
+        public Empleados(String nombre, int edad)
+        {
+            this.nombre = nombre;
+            this.edad = edad;
+        }
+        //acceso variables
+        public string nombre;
+        public int edad;
+    }
+
+}
+
+
+
+
+-----------------------------------------------------
+FORMA CORRECTA 
+-----------------------------------------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Array implicito : no especificamos ni el tipo de dato que almacena ni cuantos
+            //ni cuantos elementos va a tener el array
+
+            //var datos = new[] { "Juan", "López", "Colombia" };
+
+            var valores = new[] { 15, 25, 35, 45, 55 };
+
+            /*Array de objetos*/
+            Empleados[] arrayEmpleados = new Empleados[2];
+            //objetos almacenados en array empleados 
+            //tipo dato   nombre array    especificar cuantos objetos va a tener en su interior
+
+            arrayEmpleados[0] = new Empleados("Pablo", 18);
+            arrayEmpleados[1] = new Empleados("Juan", 18);
+
+            /*Array de tipos o clases anonimas*/
+
+            /* 
+            *var personas = new[]
+            {
+                new{Nombre="Juan", Edad=19 },
+
+                new{Nombre="Maria", Edad=49},
+
+                new{Nombre="Pablo", Edad=35}
+
+            };
+            Console.WriteLine(personas[1]); */
+            //ARRAY VALORES 
+            for (int i = 0; i <arrayEmpleados.Length; i++) /*longitud del array, va a ir hasta la longitud del array. si hay 400 
+                                                      elementos, entonces valores irá hasta la posición 400 sirve si no sabemos la longitud del array*/
+                                                    
+            {
+                Console.WriteLine(arrayEmpleados[i].getInfo()); /*Lo mejor es poner las variables en private y hacer un metodo get para acceder a la información
+                                                                 sin modificarla*/           
+            }
+
+
+        }
+    } 
+    class Empleados
+    {
+        public Empleados(String nombre, int edad)
+        {
+            this.nombre = nombre;
+            this.edad = edad;
+        }
+        //acceso variables
+
+            //metodo get para acceder a variables private
+        public string getInfo()
+        {
+            return "Nombre del Empleado: " + nombre + " Edad del empleado: " + edad; 
+        }
+        private string nombre;
+        private int edad;
+    }
+
+}
+
+
+------------------------------------------------------------
+BUCLE FOREACH
+EN CASO DE QUE NO SEPAMOS EL NOMBRE DEL ARRAY, O SU LONGITUD
+
+ foreach(Empleados variable in arrayEmpleados)
+            {
+                Console.WriteLine(variable.getInfo());
+            }
+
+//O
+  foreach(double variable in valores)
+            {
+                Console.WriteLine(variable);
+            }
+//O 
+   foreach (var variable in personas)
+            {
+                Console.WriteLine(variable);
+            }
+
+
+
+
+------------------------------------------------------------------------
+ARRAYS POR PARAMETROS
+-------------------------------------------------------------------------
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numeros = new int[4];
+            numeros[0] = 7;
+            numeros[1] = 14;
+            numeros[2] = 21;
+            numeros[3] = 28;
+
+            //pasar por parametros al metodo procesadatos este array
+            ProcesaDatos(numeros); //pasa a procesa datos
+            //cuando se produce la llamada al metodo lo que hay almacenado en el array (numeros)
+            //viaja y se almacena en datos. 
+
+
+
+            foreach (int i in numeros)
+            {
+                Console.WriteLine(i);
+            }
+
+        }
+         //una vez que se almacene en datos hacemos un bucle foreach para recorrer lo que hay en el array
+        static void ProcesaDatos(int [] datos)
+        {   /*
+            foreach(int i in datos)
+            {
+                Console.WriteLine(i);
+            }
+            */
+            for (int i = 0; i < 4; i++)
+            {
+                //vamos a sumar 10 a cada valor almacenado en el array
+                datos[i] += 10; 
+
+            }
+        }
+    }
+}
+------------------------------------------------------------------------------------------
+ARRAYS POR PARAMETROS, METODOS QUE DEVUELVAN ARRAYS
+------------------------------------------------------------------------------------------
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        
+
+
+            foreach (int i in numeros)
+            {
+                Console.WriteLine(i);
+            }
+
+        }
+         //una vez que se almacene en datos hacemos un bucle foreach para recorrer lo que hay en el array
+        static void ProcesaDatos(int [] datos)
+        {   /*
+            foreach(int i in datos)
+            {
+                Console.WriteLine(i);
+            }
+            
+            for (int i = 0; i < 4; i++)
+            {
+                //vamos a sumar 10 a cada valor almacenado en el array
+                datos[i] += 10; 
+                */
+            int[] arrayElementos = LeerDatos();
+            Console.WriteLine("Imprimiendo desde el main");
+
+            foreach (int i in arrayElementos) Console.WriteLine(); 
+                
+            static int[] LeerDatos()
+            {
+                Console.WriteLine("¿Cuantos elementos quieres que tenga el array?");
+                String respuesta = Console.ReadLine();
+                int numElementos = int.Parse(respuesta);
+
+                int[] datos = new int [numElementos];
+                for(int i=0;i<numElementos; i++)
+                {
+                    Console.WriteLine($"Introduce  el dato para la posición { i}");
+                    respuesta = Console.ReadLine();
+                    int datosElemento = int.Parse(respuesta);
+                    datos[i]= datosElemento;
+                }
+                return datos;
+            }
+            
+        }
+    }
+}
+
+
+------------------------------------------------------------------------------------------
+HERENCIA
+------------------------------------------------------------------------------------------
+JERARQUIA Y DISEÑO DE LA HERENCIA "ES UN" 
+                       EMPLEADO 
+                           |
+ JEFE----------------------+----------------------DIRECTOR
+
+
+
+
+EMPLEADO
+
+JEFE           //UN JEFE ES UN EMPLEADO, PUEDE HEREDAR DE LA CLASE EMPLEADO AL IGUAL QUE EL DIRECTOR
+
+DIRECTOR         //UN DIRECTOR ES UN JEFE/EMPLEADO 
+
+
+CARATERISTICAS COMUNES
+TIENEN NOMBRE, EDAD, SALARIO 
+
+COMPORTAMIENTOS COMUNES 
+VAN A TRABAJAR 
+PUEDEN GENERAR INFORMES 
+
+
+OTRO EJEMPLO 
+
+
+
+
+CLASE CABALLO           CLASE HUMANO                CLASE GORILA 
+
+
+
+CARACTERISTICAS COMUNES:
+VERTEBRADOS
+SAGRE CALIENTE
+MAMIFEROS
+
+
+PODRIAMOS PONER EN LA CUSPIDE (PUNTA DE LA JERARQUIA) CREAMOS UNA CLASE MAMIFEROS
+
+
+                                 MAMIFEROS 
+                                     |
+   CABALLO------------------------HUMANO------------------------GORILA
+
+
+NO SIEMPRE ES NECESARIO HERENCIA EN TODAS LAS APLICACIONES, EN APLICACIONES COMPLEJAS 
+ES USUAL UTILIZARLAS. 
+
+
+
+
+EJEMPLO VISUAL STUDIO: 
+
+namespace Herencia
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //instancia perteneciente a la clase caballo 
+
+            Caballo Babieeca = new Caballo();
+            Humano Juan = new Humano();
+            Gorilas Copito = new Gorilas();
+
+            Babieeca.CuidarCrias(); //en el menu aparecen metodos que hereda de la clase mamiferos (cuidar crias)
+            Juan.Pensar(); //no hereda metodos exclusivos de la clase caballo
+            Copito.Trepar();
+        }
+    }
+
+    class Mamiferos
+    {
+        public void Respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public void CuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta cuando se valgan por si solas");
+        }
+
+
+    }
+    //nombre de la clase ":" + nombre de la clase de la que hereda
+    class Caballo:Mamiferos
+    {
+        //asi no es necesario volver a programar que Caballo respira y cuida de sus crias 
+        public void Galopar()
+        {
+            Console.WriteLine("Soy capaz de galopar"); //exxclusividad de caballos
+        }
+
+    }
+    class Humano:Mamiferos
+    {
+        public void Pensar()
+        { 
+            Console.WriteLine("Soy capaz de pensar criticamente");  //esclusividad humanos
+        }
+       
+    }
+    class Gorilas:Mamiferos
+    {
+        public void Trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar"); //exclusividad gorilas
+        }
+    }
+}
+
+
+
+----------------------------------------------------------------------------
+CONSTRUCTORES Y BASE 
+----------------------------------------------------------------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //instancia perteneciente a la clase caballo 
+
+            Caballo Babieeca = new Caballo("MiCaballo");
+            Humano Juan = new Humano("Pablo");
+            Gorilas Copito = new Gorilas("Jorge");
+
+            Babieeca.CuidarCrias(); //en el menu aparecen metodos que hereda de la clase mamiferos (cuidar crias)
+            Juan.Pensar(); //no hereda metodos exclusivos de la clase caballo
+            Copito.Trepar();
+
+            Juan.getNombre();
+        }
+    }
+
+    class Mamiferos
+    {
+        public Mamiferos(String nombre)
+        {
+            nombreSerVivo = nombre; //lo que se almacene en nombre se almacenara en nombreSerVivo
+        }
+
+        public void Respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public void CuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta cuando se valgan por si solas");
+        }
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+        }
+
+        private String nombreSerVivo;
+
+
+    }
+    //nombre de la clase ":" + nombre de la clase de la que hereda
+    class Caballo : Mamiferos
+    {
+        public Caballo(String nombreCaballo):base(nombreCaballo)
+        {
+
+
+
+        }
+        //asi no es necesario volver a programar que Caballo respira y cuida de sus crias 
+        public void Galopar()
+        {
+            Console.WriteLine("Soy capaz de galopar"); //exxclusividad de caballos
+        }
+        
+
+    }
+    class Humano : Mamiferos
+    {
+        public Humano(String nombreHumano):base(nombreHumano)
+        {
+
+        }
+        public void Pensar()
+        {
+            Console.WriteLine("Soy capaz de pensar criticamente");  //esclusividad humanos
+        }
+
+    }
+    class Gorilas : Mamiferos
+    {
+        public Gorilas(String nombreGorilas):base(nombreGorilas)
+        {
+
+        }
+        public void Trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar"); //exclusividad gorilas
+        }
+    }
+}
+
+
+
+-------------------------------------------------------------------------------
+HERENCIA PRINCIPIO DE SUSTITUCION 
+------------------------------------------------------------------------------
+CAMBIAR EL TIPO DE CLASE. 
+"ES SIEMPPRE UN..."
+
+UN HUMANO, UN CABALLO, UN GORILA ES SIEMPRE UN MAMIFERO 
+UN HUMANO NO ES UN GORILA NI CABALLO PERO SIEMPRE UN MAMIFERO 
+
+
+correcto: Mamiferos animal = new Caballo();
+
+Erroneo: Caballo animal = new Mamifero();
+
+
+
+EJEMPLO: 
+4 CLASES. 
+
+DIRECTOR 
+
+EMPLEADO 
+
+SECRETARIA 
+
+JEFE SECCIÓN 
+
+
+
+UN DIRECTOR NO SIEMPRE ES UNA SECRETARIA, NI AL CONTRARIO
+UN EMPLEADO PUEDE SER UN DERECTOR GENERAL, UNA SECRETARIA Y AL CONTRARIO 
+
+
+EJEMPLO VISUAL STUDIO: 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //instancia perteneciente a la clase caballo 
+
+            Caballo Babieeca = new Caballo("MiCaballo");
+            Humano Juan = new Humano("Pablo");
+            Gorilas Copito = new Gorilas("Jorge");
+
+            Console.WriteLine("PRINCIPIO DE CONSTITUCION");
+            //PRINCIPIO DE CONSTITUCIÓN
+            Mamiferos animal = new Caballo("Bucefalo"); //dentro objetos mamiferos almacenamos un objeto caballo
+
+            Mamiferos persona = new Humano("López"); //persona hace parte de Mamiferos 
+
+            //ANIMAL Y PERSONA SON DE TIPO MAMIFEROS, ESAS INSTANCIAS PUEDEN ACCEDER A METODOS DECLARADOS EN CLASES MAMIFEROS
+
+            Caballo Bucefalo = new Caballo("MiBucefalo"); //una instancia perteneciente a la clase caballo
+            animal = Bucefalo; //en una variable de tipo mamiferos almaceno una de tipo Caballo
+            //un caballo es un mamifero pero no al reves, un mamifero no siempre es un caballo 
+            //Bucefalo = animal; estaria erroneo
+
+            //TAMBIEN SE PUEDE HACER //object es la que está en la cuspide 
+            Object miAnimal = new Caballo("otroBucefalo");
+
+
+            Babieeca.CuidarCrias(); //en el menu aparecen metodos que hereda de la clase mamiferos (cuidar crias)
+            Juan.Pensar(); //no hereda metodos exclusivos de la clase caballo
+            Copito.Trepar();
+
+            Juan.getNombre();
+        }
+    }
+
+    class Mamiferos
+    {
+        public Mamiferos(String nombre)
+        {
+            nombreSerVivo = nombre; //lo que se almacene en nombre se almacenara en nombreSerVivo
+        }
+
+        public void Respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public void CuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta cuando se valgan por si solas");
+        }
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+        }
+
+        private String nombreSerVivo;
+
+
+    }
+    //nombre de la clase ":" + nombre de la clase de la que hereda
+    class Caballo : Mamiferos
+    {
+        public Caballo(String nombreCaballo) : base(nombreCaballo)
+        {
+
+
+
+        }
+        //asi no es necesario volver a programar que Caballo respira y cuida de sus crias 
+        public void Galopar()
+        {
+            Console.WriteLine("Soy capaz de galopar"); //exxclusividad de caballos
+        }
+
+
+    }
+    class Humano : Mamiferos
+    {
+        public Humano(String nombreHumano) : base(nombreHumano)
+        {
+
+        }
+        public void Pensar()
+        {
+            Console.WriteLine("Soy capaz de pensar criticamente");  //esclusividad humanos
+        }
+
+    }
+    class Gorilas : Mamiferos
+    {
+        public Gorilas(String nombreGorilas) : base(nombreGorilas)
+        {
+
+        }
+        public void Trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar"); //exclusividad gorilas
+        }
+    }
+}
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+INTERFACES
+
+SON UN CONJUNTO DE DIRECTRICES QUE DEBEN DE CUMPLIR LAS CLASES 
+
+
+Interfaz1 -> implementa -> Clase Ejemplo1
+
+una interfaz es parecido a una clase, existen definiciones de una clase 
+un objeto tiene comportamientos y están marcados por los metodos
+
+Una interfaz va a tener un metodo sin declarar 
+
+
+-------------------------------------------------------
+EJEMPLO INTERFACES 1 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Caballo miBabieca = new Caballo("Babieca");
+
+            Humano miJuan = new Humano("Juan");
+
+            Gorila miCopito = new Gorila("Copito");
+
+            Mamiferos[] almacenAnimales = new Mamiferos[3];
+
+            almacenAnimales[0] = miBabieca;
+
+            almacenAnimales[1] = miJuan;
+
+            almacenAnimales[2] = miCopito;
+
+            for (int i = 0; i < 3; i++)
+            {
+                almacenAnimales[i].pensar();
+
+            }
+
+            Mamiferos miMamifero = new Mamiferos("");
+
+
+            Ballena miWillie = new Ballena("Willie");
+            miWillie.nadar();
+
+            Console.WriteLine("Numero de patas de Babieca: " + miBabieca.numeroPatas());
+
+            Console.WriteLine("Numero de patas Gorila: " +miCopito.numeroPatas());
+
+        }
+    }
+    // En la interfaz definimos el comportamiento obligatorio  las clases que hereden
+    interface IMamiferosTerrestres
+    {
+        //los metodos de una interfaz no se desarrollan, simplemente se declaran
+        int numeroPatas(); //no agregar modificadores de acceso (public, private, protected)     
+
+    }
+
+    class Mamiferos
+    {
+        public Mamiferos(String nombre)
+        {
+            nombreSerVivo = nombre;
+        }
+
+        protected void respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public virtual void pensar()
+        {
+            Console.WriteLine("Pensamiento básico instintivo");
+        }
+
+        public void cuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
+
+        }
+
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+        }
+
+        private String nombreSerVivo;
+    }
+
+    class Ballena : Mamiferos
+    {
+        public Ballena(String nombreBallena) : base(nombreBallena)
+        {
+
+        }
+
+        public void nadar()
+        {
+            Console.WriteLine("Soy capaz de nadar");
+        }
+    }
+    //cuando una clase está heredando de otra clase y queremos agregar otra herencia la ponemos seguida de una coma(,)
+    class Caballo : Mamiferos, IMamiferosTerrestres
+    {
+        public Caballo(String nombreCaballo) : base(nombreCaballo)
+        {
+
+        }
+
+        public void galopar()
+        {
+            Console.WriteLine("Soy capaz de Galopar");
+
+        }
+
+        public int numeroPatas()
+        {
+            return 4;
+        }
+    }
+
+    class Humano : Mamiferos
+    {
+        public Humano(String nombreHumano) : base(nombreHumano)
+        {
+
+
+        }
+        public override void pensar() //con esto le indicamos a visual studio que modificamos una clase
+        {
+            Console.WriteLine("Soy Capaz de pensar");
+        }
+    }
+
+    class Gorila : Mamiferos, IMamiferosTerrestres
+    {
+        public Gorila(string nombreGorila) : base(nombreGorila)
+        {
+
+        }
+
+        public void trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar");
+        }
+
+        public override void pensar()
+        {
+            Console.WriteLine("Pensamiento instintivo Avanzado");
+        }
+
+        public int numeroPatas()
+        {
+            return 2;
+        }
+    }
+}
+
+
+
+-----------------------------------------------------------
+INTERFACES 2 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Caballo miBabieca = new Caballo("Babieca");
+
+            Humano miJuan = new Humano("Juan");
+
+            Gorila miCopito = new Gorila("Copito");
+
+            Mamiferos[] almacenAnimales = new Mamiferos[3];
+
+            almacenAnimales[0] = miBabieca;
+
+            almacenAnimales[1] = miJuan;
+
+            almacenAnimales[2] = miCopito;
+
+            for (int i = 0; i < 3; i++)
+            {
+                almacenAnimales[i].pensar();
+
+            }
+
+            Mamiferos miMamifero = new Mamiferos("");
+
+
+            Ballena miWillie = new Ballena("Willie");
+            miWillie.nadar();
+
+            IMamiferosTerrestres ImiBabieca = miBabieca; //ahora es un objeto de la interfaz IMamiferos 
+            ISaltoConPatas Imibabieca2 = miBabieca;  //ahora es un objeto de la interfaz ISaltoConPatas
+            Console.WriteLine("Numero de patas de Babieca: " + ImiBabieca.numeroPatas()); //ahora es accesible con el principio de sustitución ya que numeroPAtas() 
+                                                                                          //hace referencia a ImiBabieca de IMamiferos. 
+
+            Console.WriteLine("Numero de patas con las que realiza un salto: " + Imibabieca2.numeroPatas()); //ahora es accesible con el principio de sustitución ya que numeroPAtas() 
+                                                                                                             //hace referencia a ImiBabieca2 de ISaltoConPatas. 
+           
+
+
+
+            IMamiferosTerrestres ImiCopito = miCopito;
+            ISaltoConPatas ImiCopito2 = miCopito;
+
+            Console.WriteLine("Numero de patas Gorila: " + ImiCopito.numeroPatas());
+            Console.WriteLine("Numero de patas Gcon las que realiza un salto: " + ImiCopito2.numeroPatas());
+        }
+    }
+    // En la interfaz definimos el comportamiento obligatorio  las clases que hereden
+    interface IMamiferosTerrestres
+    {
+        //los metodos de una interfaz no se desarrollan, simplemente se declaran
+        int numeroPatas(); //no agregar modificadores de acceso (public, private, protected)     
+
+    }
+
+    interface IAnimalesDeportes
+    {
+        string tipoDeporte();
+        Boolean esOlimpico(); 
+    }
+
+    interface ISaltoConPatas
+    {
+        int numeroPatas(); 
+    }
+
+    class Mamiferos
+    {
+        public Mamiferos(String nombre)
+        {
+            nombreSerVivo = nombre;
+        }
+
+        protected void respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public virtual void pensar()
+        {
+            Console.WriteLine("Pensamiento básico instintivo");
+        }
+
+        public void cuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
+
+        }
+
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+        }
+
+        private String nombreSerVivo;
+    }
+
+    class Ballena : Mamiferos
+    {
+        public Ballena(String nombreBallena) : base(nombreBallena)
+        {
+
+        }
+
+        public void nadar()
+        {
+            Console.WriteLine("Soy capaz de nadar");
+        }
+    }
+    //cuando una clase está heredando de otra clase y queremos agregar otra herencia la ponemos seguida de una coma(,)
+    class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesDeportes, ISaltoConPatas
+    {
+        public Caballo(String nombreCaballo) : base(nombreCaballo)
+        {
+
+        }
+
+        public void galopar()
+        {
+            Console.WriteLine("Soy capaz de Galopar");
+
+        }
+        //nuestra clase ahora es inaccesible desde fuera porque ya no tiene modificador public 
+        int IMamiferosTerrestres.numeroPatas() //nos retornara el metodo de la interfaz IMamiferosTerrestres a
+        {
+            return 4;
+        }
+        //nuestra clase ahora es inaccesible desde fuera porque ya no tiene modificador public 
+        int ISaltoConPatas.numeroPatas() //nos retornara el metodo de la interfaz ISaltoConPatas
+        {
+            return 2; 
+        }
+
+        public string tipoDeporte()
+        {
+            return "Carreras de caballos (Hipica)"; 
+        }
+
+        public Boolean esOlimpico()
+        {
+            return true; 
+        }
+    }
+
+    class Humano : Mamiferos
+    {
+        public Humano(String nombreHumano) : base(nombreHumano)
+        {
+
+
+        }
+        public override void pensar() //con esto le indicamos a visual studio que modificamos una clase
+        {
+            Console.WriteLine("Soy Capaz de pensar");
+        }
+    }
+
+    class Gorila : Mamiferos, IMamiferosTerrestres, ISaltoConPatas
+    {
+        public Gorila(string nombreGorila) : base(nombreGorila)
+        {
+
+        }
+
+        public void trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar");
+        }
+
+        public override void pensar()
+        {
+            Console.WriteLine("Pensamiento instintivo Avanzado");
+        }
+
+        int IMamiferosTerrestres.numeroPatas()
+        {
+            return 2;
+        }
+
+        int ISaltoConPatas.numeroPatas()
+        {
+            return 2; 
+        }
+    }
+}
+------------+-----------------------------------------------------------------------
+IMPORTANTE: |
+------------+-------------------------------------------------------------
+- NO SE PUEDEN DEFINIR VARIABLES EN INTERFACES
+- NO SE PUEDEN DEFINIR CONSTRUCTORES 
+- NO SE PUEDEN DEFINIR DESTRUCTORES 
+- NO SE PUEDEN ESPECIFICAR MODIFICADORES DE ACCESO EN METODOS
+- NO SE PUEDE ANIDAR CLASES NI OTRO TIPO DE ESTRUCTURAS EN UNA INTERFAZ
+
+-------------------------------------------------------------
+INTEFACES_4 
+
+EJEMPLO: 
+
+Main: 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            AvisosTrafico av1 = new AvisosTrafico();
+
+            av1.mostrarAviso();
+
+            AvisosTrafico av2 = new AvisosTrafico("Policia Nacional de Vias", "Sanción exceso de velocidad", "19-06-20");
+
+            Console.WriteLine(av2.getFecha());
+
+            av2.mostrarAviso();
+        
+        }
+
+
+
+    }
+}
+
+
+
+
+
+Interface IAvisos : 
+
+    interface IAvisos
+    {
+        void mostrarAviso();
+
+
+        string getFecha();
+    }
+}
+
+
+
+
+
+Clase AvisosTrafico:
+
+    class AvisosTrafico : IAvisos
+    {
+        public AvisosTrafico()
+        {
+
+
+            remitente = "Policia Transito y Transporte";
+
+            mensaje = "Sanción comentida. Paguese antes de 3 días"; 
+
+            fecha =  "";
+
+        }
+
+        public AvisosTrafico(string remitente, string mensaje, string fecha)
+        {
+            this.remitente = remitente; //almacenamos lo que pasemos como parametro en el campo de 
+                                        //de clase remitente que se encuentra abajo 
+            this.mensaje = mensaje;
+
+            this.fecha = fecha; 
+        }
+
+
+
+
+
+
+
+        public string getFecha()
+        {
+            return fecha; //nos devolverá el valor que está almacenado en campo de clase fecha
+        }
+
+        public void mostrarAviso()
+        {                    //0 correspondiente al primer argumento, 1 para el siguiente y 2 para el siguiente
+            Console.WriteLine("Mensaje {0} ha sido enviado por {1} el día {2}", mensaje, remitente, fecha ); //argumentos de posicion 1,0,2
+        }
+
+        //campos de clase
+        private string remitente;
+
+        private string mensaje;
+
+        private string fecha; 
+    }
+}
+
+
+
+--------------------------------------------------------------------------------------------------------
+CLASES ABSTARCTAS 1
+
+Una clase abstracta es la que menos cosas puede hacer 
+
+
+
+
+------------------------------------------------------------------
+CLASES ABSTRACTAS 2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+CLASES SELLADAS SEALED CLASSES
+
+Cuando no queremos que una clase se extienda entra en juego las clases selladas
+es decir que es aquella de la cual no se va a poder heredar 
+
+es decir que no se va a extender en el futuro utilizamos sealed
+por ejemplo la Clase humano sobreescribe un metodo Pensar() y si queremos que 
+cuando otra clase herede de la Clase Humano y no sobreescriba el metodo Pensar() utilizamos
+el sealed class
+
+Sealed impide la Herencia y Sobreescritura de metodos 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Caballo miBabieca = new Caballo("Babieca");
+
+            Humano miJuan = new Humano("Juan");
+
+            Gorila miCopito = new Gorila("Copito");
+
+            Mamiferos[] almacenAnimales = new Mamiferos[3];
+
+            almacenAnimales[0] = miBabieca;
+
+            almacenAnimales[1] = miJuan;
+
+            almacenAnimales[2] = miCopito;
+
+            for (int i = 0; i < 3; i++)
+            {
+                almacenAnimales[i].pensar();
+
+            }
+
+            Mamiferos miMamifero = new Mamiferos("");
+
+
+            Ballena miWillie = new Ballena("Willie");
+            miWillie.nadar();
+
+            IMamiferosTerrestres ImiBabieca = miBabieca; //ahora es un objeto de la interfaz IMamiferos 
+            ISaltoConPatas Imibabieca2 = miBabieca;  //ahora es un objeto de la interfaz ISaltoConPatas
+            Console.WriteLine("Numero de patas de Babieca: " + ImiBabieca.numeroPatas()); //ahora es accesible con el principio de sustitución ya que numeroPAtas() 
+                                                                                          //hace referencia a ImiBabieca de IMamiferos. 
+
+            Console.WriteLine("Numero de patas con las que realiza un salto: " + Imibabieca2.numeroPatas()); //ahora es accesible con el principio de sustitución ya que numeroPAtas() 
+                                                                                                             //hace referencia a ImiBabieca2 de ISaltoConPatas. 
+
+
+
+
+            IMamiferosTerrestres ImiCopito = miCopito;
+            ISaltoConPatas ImiCopito2 = miCopito;
+
+            Console.WriteLine("Numero de patas Gorila: " + ImiCopito.numeroPatas());
+            Console.WriteLine("Numero de patas Gcon las que realiza un salto: " + ImiCopito2.numeroPatas());
+        }
+    }
+    // En la interfaz definimos el comportamiento obligatorio  las clases que implementen
+    interface IMamiferosTerrestres
+    {
+        //los metodos de una interfaz no se desarrollan, simplemente se declaran
+        int numeroPatas(); //no agregar modificadores de acceso (public, private, protected)     
+
+    }
+
+    interface IAnimalesDeportes
+    {
+        string tipoDeporte();
+        Boolean esOlimpico();
+    }
+
+    interface ISaltoConPatas
+    {
+        int numeroPatas();
+    }
+
+    class Mamiferos
+    {
+        public Mamiferos(String nombre)
+        {
+            nombreSerVivo = nombre;
+        }
+
+        protected void respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public virtual void pensar()
+        {
+            Console.WriteLine("Pensamiento básico instintivo");
+        }
+
+        public void cuidarCrias()
+        {
+            Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
+
+        }
+
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+        }
+
+        private String nombreSerVivo;
+    }
+
+    class Ballena : Mamiferos
+    {
+        public Ballena(String nombreBallena) : base(nombreBallena)
+        {
+
+        }
+
+        public void nadar()
+        {
+            Console.WriteLine("Soy capaz de nadar");
+        }
+    }
+    //cuando una clase está heredando de otra clase y queremos agregar otra herencia la ponemos seguida de una coma(,)
+    class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesDeportes, ISaltoConPatas
+    {
+        public Caballo(String nombreCaballo) : base(nombreCaballo)
+        {
+
+        }
+
+        public void galopar()
+        {
+            Console.WriteLine("Soy capaz de Galopar");
+
+        }
+        //nuestra clase ahora es inaccesible desde fuera porque ya no tiene modificador public 
+        int IMamiferosTerrestres.numeroPatas() //nos retornara el metodo de la interfaz IMamiferosTerrestres a
+        {
+            return 4;
+        }
+        //nuestra clase ahora es inaccesible desde fuera porque ya no tiene modificador public 
+        int ISaltoConPatas.numeroPatas() //nos retornara el metodo de la interfaz ISaltoConPatas
+        {
+            return 2;
+        }
+
+        public string tipoDeporte()
+        {
+            return "Carreras de caballos (Hipica)";
+        }
+
+        public Boolean esOlimpico()
+        {
+            return true;
+        }
+    }
+
+    class Humano : Mamiferos
+    {
+        public Humano(String nombreHumano) : base(nombreHumano)
+        {
+
+
+        }
+        public sealed override void pensar() //con esto le indicamos a visual studio que modificamos una clase
+        {
+            Console.WriteLine("Soy Capaz de pensar");
+        }
+    }
+    //declaramos para clase gorila para impedir que se herede esta clase
+    sealed class Gorila : Mamiferos, IMamiferosTerrestres, ISaltoConPatas
+    {
+        public Gorila(string nombreGorila) : base(nombreGorila)
+        {
+
+        }
+
+        public void trepar()
+        {
+            Console.WriteLine("Soy capaz de trepar");
+        }
+
+        public override void pensar()
+        {
+            Console.WriteLine("Pensamiento instintivo Avanzado");
+        }
+
+        int IMamiferosTerrestres.numeroPatas()
+        {
+            return 2;
+        }
+
+        int ISaltoConPatas.numeroPatas()
+        {
+            return 2;
+        }
+    }
+    class Chimpance : Gorila //chimpance no puede derivar de la clase gorila (No puede heredar) 
+    {
+        public Chimpance(string nombreChimpance) : base(nombreChimpance)
+        {
+
+        }
+    }
+
+    class Adolescente : Humano
+    {
+        public Adolescente(string nombreAdolecente) : base(nombreAdolecente)
+        {
+
+        }
+        //si queremos que el metodo pensasr no sea sobreescrito en metodos que extiendan la clase humano
+        //declaramos el metodo como sealed 
+        public override void pensar()
+        {
+            Console.WriteLine("Las hormonas me impiden pensar con claridad");
+        }
+    }
+
+}
+--------------------------------------------------------------------------------------
+Propiedades 1
+
+PROGRAMA SIN PROPIEDADES
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Empleado Juan = new Empleado("Juan");
+            Juan.setSalario(940000);
+            Console.WriteLine("El salario del empleado es: " + Juan.getSalario());
+
+            
+        }
+    }
+    class Empleado
+    {
+        public Empleado(string nombreEmpleado)
+        {
+            this.nombreEmpleado = nombreEmpleado;
+        }
+
+        public void setSalario(double salario)
+        {
+            if(salario < 0)
+            {
+                Console.WriteLine("El salario no puede ser negativo, se asignará 0 como salario");
+                this.salario = 0; 
+
+            }
+            else
+            {
+                this.salario = salario; 
+            }
+
+        }
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+
+        private double salario;
+        private string nombreEmpleado;
+    }
+
+
+
+
+
+
+
+-----------------
+
+PROGRAMA CON PROPIEDADES: 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Empleado Juan = new Empleado("Juan");
+            //PARA ESTABLECER UN SALARIO:
+            Juan.SALARIO = 1200;
+
+            Console.WriteLine("El salario del empleado es: " + Juan.SALARIO);
+
+            
+
+            
+        }
+    }
+    class Empleado
+    {
+        public Empleado(string nombreEmpleado)
+        {
+            this.nombreEmpleado = nombreEmpleado;
+        }
+        /*
+        public void setSalario(double salario)
+        {
+            if(salario < 0)
+            {
+                Console.WriteLine("El salario no puede ser negativo, se asignará 0 como salario");
+                this.salario = 0; 
+
+            }
+            else
+            {
+                this.salario = salario; 
+            }
+
+        }
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+        */
+        //en caso de quere utilizar properties podemos construir el programa de la siguiente manera:
+        //crar un metodo encapsulado de tipo double que va a evaluar el salario que hemos dado al empleado con parametro salario 
+        private double evaluaSalario(double salario)
+        {
+            if (salario < 0) return 0;
+            else return salario; 
+        }
+
+        //CREACIÓN DE PROPIEDAD 
+        //nos va a permitir acceder a la propiedad como si fuera un public pero nos permitirá 
+        //violar reglas que no queremos (if de más arriba) 
+
+        //modificador de acceso, tipo, y por convencion en MAYUSCULAS NOMBRE
+        public double SALARIO
+        {
+            //crear un get y un set 
+            get { return this.salario; } //que nos devuelva el valor del salario
+
+            set { this.salario = evaluaSalario(value);  } //decirle que salario es igual al metodo evaluaSalario
+          //a la hora de pasarle un parametro utilizamos la palabra reservada value
+        }
+
+
+
+        private double salario;
+        private string nombreEmpleado;
+    }
+
+     
+
+
+
+}
+
+//NOTA: 
+La palabra clave contextual value se usa en el descriptor de acceso set de las declaraciones propiedad y indizador.
+Es parecido a un parámetro de entrada de un método. El término value hace referencia al valor que el código de cliente 
+intenta asignar a la propiedad o indizador.
+
+
+--------------------------------
+PROPIEDADES 2 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Empleado Juan = new Empleado("Juan");
+            //PARA ESTABLECER UN SALARIO:
+            Juan.SALARIO = 1200;
+
+            //para incrementarle 500: 
+            Juan.SALARIO += 500;
+            Console.WriteLine("El salario del empleado es: " + Juan.SALARIO);
+
+
+
+
+        }
+    }
+    class Empleado
+    {
+        public Empleado(string nombreEmpleado)
+        {
+            this.nombreEmpleado = nombreEmpleado;
+        }
+        /*
+        public void setSalario(double salario)
+        {
+            if(salario < 0)
+            {
+                Console.WriteLine("El salario no puede ser negativo, se asignará 0 como salario");
+                this.salario = 0; 
+
+            }
+            else
+            {
+                this.salario = salario; 
+            }
+
+        }
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+        */
+        //en caso de quere utilizar properties podemos construir el programa de la siguiente manera:
+        //crar un metodo encapsulado de tipo double que va a evaluar el salario que hemos dado al empleado con parametro salario 
+        private double evaluaSalario(double salario)
+        {
+            if (salario < 0) return 0;
+            else return salario;
+        }
+
+        //CREACIÓN DE PROPIEDAD 
+        //nos va a permitir acceder a la propiedad como si fuera un public pero nos permitirá 
+        //violar reglas que no queremos (if de más arriba) 
+
+        //modificador de acceso, tipo, y por convencion en MAYUSCULAS NOMBRE
+        /*
+        public double SALARIO
+        {
+            //crear un get y un set 
+            get { return this.salario; } //que nos devuelva el valor del salario
+
+            set { this.salario = evaluaSalario(value); } //decirle que salario es igual al metodo evaluaSalario
+                                                         //a la hora de pasarle un parametro utilizamos la palabra reservada value
+        }
+
+        */
+
+        //podemos utilizar expression body operacion lambda 
+        //basicamente estamos haciendo lo mismo pero con otra nomenclatura
+        public double SALARIO
+        {
+
+            get => this.salario;
+
+            set => this.salario = evaluaSalario(value); 
+        }
+
+        private double salario;
+        private string nombreEmpleado;
+    }
+
+
+
+
+
+}
+
+
+--------------------------------------
+STRUCTS 1  ESTRUCTURAS 
+-----------------------------
+Clases vs structs 
+las clases se almacenan en la memoria heap y struck en la memoria stack
+
+ 
+una variable se almacena en un espacio de la memoria del ordenador 
+resulta que hay dos tipos de memoria para almacenar un valor cuando creamos una aplicacion 
+
+Empleado empleado1 = new Empleado(); 
+Valor(Stack)
+Se almacenan los valores primitivos 
+las referencias se almacenan en stack 
+empleado1 referencia a...
+
+
+Referencia(Heap)
+los objetos se almacenan en la memoria heap
+objeto Empleado
+
+
+
+struct lo que hace cambiar la palabra reservada class por struck 
+
+struct se almacena en struct 
+con struct las referencias y objetos se almacenan en stack 
+generando copias de un objeto
+
+
+
+Programa sin struct: 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Empleado empleado1 = new Empleado(1200, 500);
+
+            Console.WriteLine(empleado1);
+        }
+    }
+
+    public class Empleado
+    {
+        public double salarioBase, comision;
+
+        public Empleado(int salarioBase, int comision)
+        {
+            this.salarioBase = salarioBase;
+
+            this.comision = comision; 
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Salario y comisión del empleado ({0}, {1})", this.salarioBase, this.comision);
+        }
+    }
+
+
+-----------------------------------------------------
+
+Struct 
+- no permite la declaracion de constructor por defecto 
+- el compilador no inicia los campos, se pueden iniciar en el constructor 
+- no puede haber sobrecarga de constructores 
+- no heredan de otrasclases pero si implementan interfaces
+- son selladas sealed 
+
+USO:
+cuando se necesita trabajar con una cantidad elevada de daton en memoria 
+(representacion de primitivos, numeros complejos, puntos tridimensionales.. etc) 
+- cuando las instancias no deban cambiar (inmutables)
+- cuando la instancia tenga tamaño inferior a 16 bytes 
+- cuando no necesites convertir a objeto (boxed) 
+por razones de rendimiento
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+ENUM (Tipos enumerados) 
+Son un conjunto de constantes con nombres 
+
+sintaxis: 
+enum NombredeEnumeracion{nombre1, nombre2, nombre3...};
+
+sirven para representar y manejar valores fijos(constantes) en un programa
+
+por ejemplo representar las estaciones del año, dias de la semana series con valores constantes 
+con valores fijos 
+
+Estaciones{Primavera, Verano, Otoño, Invierno};
+
+
+
+EJEMPLO 
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Estaciones alergia = Estaciones.Invierno;
+            Console.WriteLine(alergia);
+
+            //para almacenar en una cadena de texto
+            String La_alergia = alergia.ToString();
+
+            //para valor nulo 
+            //Estaciones? alergia = null; 
+            Console.WriteLine(La_alergia);
+           
+        }
+    }
+
+    //son constantes
+    enum Estaciones { Primavera, Verano, Otoño, Invierno }; 
+
+}
+
+
+
+---------------------------------------------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            Estaciones alergia = Estaciones.Invierno;
+            Console.WriteLine(alergia);
+
+            //para almacenar en una cadena de texto
+            String La_alergia = alergia.ToString();
+
+            //para valor nulo 
+            //Estaciones? alergia = null; 
+            Console.WriteLine(La_alergia);
+           */
+
+            Bonus empleado1 = Bonus.normal;
+
+            //casting 
+            //variable tipo double = casting double de lo que hay almacenado en empleado1
+            double bonusEmpleado1 = (double)empleado1; //para almacenar no bajo sino 500
+            Console.WriteLine(bonusEmpleado1);
+
+        }
+
+       
+    }
+
+    //son constantes
+    /* enum Estaciones { Primavera, Verano, Otoño, Invierno }; */
+
+    enum Bonus {  bajo=500, normal=1000, bueno=1500, extra=3000 }; 
+
+}
+
+---------------------------------------------------------------
+enum por parametro:                                           +
+---------------------------------------------------------------
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            Estaciones alergia = Estaciones.Invierno;
+            Console.WriteLine(alergia);
+
+            //para almacenar en una cadena de texto
+            String La_alergia = alergia.ToString();
+
+            //para valor nulo 
+            //Estaciones? alergia = null; 
+            Console.WriteLine(La_alergia);
+           */
+
+            Bonus empleado1 = Bonus.normal;
+
+            //casting 
+            //variable tipo double = casting double de lo que hay almacenado en empleado1
+            double bonusEmpleado1 = (double)empleado1; //para almacenar no bajo sino 500
+            Console.WriteLine("Uso enum: ");
+            Console.WriteLine(bonusEmpleado1);
+            Console.WriteLine();
+
+            Console.WriteLine("Bonus enum por parametro: ");
+            Empleado Juan = new Empleado(Bonus.extra, 1900.50);
+            Console.WriteLine("El salario del empleado es: " + Juan.getSalario());
+
+        }
+        class Empleado 
+        {
+            //tambien podemos utilizar el enum como parametro en una clase 
+            public Empleado(Bonus bonusEmpleado, double salario)
+            {
+                bonus = (double)bonusEmpleado;
+                this.salario = salario; 
+            }
+
+            public double getSalario()
+            {
+                return salario + bonus;
+            }
+
+            private double salario, bonus; 
+        }
+
+        
+    }
+
+    //son constantes
+    /* enum Estaciones { Primavera, Verano, Otoño, Invierno }; */
+
+    enum Bonus {  bajo=500, normal=1000, bueno=1500, extra=3000 }; 
+
+}
+
+
+---------------------------------------------------------------------+
+                                                                     +
+                           DESTRUCTORES 1                            +
+                                                                     +
+---------------------------------------------------------------------+
+
+Si hablamos de destructores debemos tener en cuenta el termino Garbage Collection
+(Recolector de basura) Recolecta los elementos que no se van a utilizar, detecta cuando un
+recurso que está ocupando memoria se deja de utilizar, selecciona que recursos de nuestro
+programa se deja de usar para eliminarlo y liberar espacio en la memoria heap 
+
+Utilidad del destructor: 
+- Ejecutar codigo a la destruccion de un recurso en memoria 
+- Ejemplos: 
+. Conexiones con BDD 
+. Cierrre de streams en el manejo externo de ficheros 
+. Eliminacion de objetos de colecciones
+. Etc 
+
+En general cuando un recolectar elimina un recurso tambien elimina todos los recursos asociados
+
+A TENER EN CUENTA: 
+
+- Los destructores solo se usan en clases
+- Cada clase solo puede tener un destructor
+- Los destructores no se heredan ni sobrecargan
+- Los destructores no se llaman, son invocados automaticamente
+- los destructores no tienen modificadores de acceso ni parametros
+
+
+
+
+
+EJEMPLO:
+
+using System;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
+
+namespace destructores1_GarbageCollection
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ManejoArchivos miArchivo = new ManejoArchivos();
+            miArchivo.mensaje();
+        }
+    }
+
+    class ManejoArchivos
+    {
+        StreamReader archivo = null;
+
+        int contador = 0;
+
+        string linea; 
+        //constructor
+        public ManejoArchivos()
+        {
+            //archivo prueba.txt almacenado en Disco Local C: 
+            archivo = new StreamReader(@"c:\prueba.txt"); 
+
+            //mientras sea diferente de nulo, quiere decir mientras contenga texto:
+            while((linea=archivo.ReadLine()) != null)
+            {
+                Console.WriteLine(linea); //que vaya imprimiendo las lineas de texto que lee
+
+                contador++; //incrementamos variable contador
+
+            }
+
+           
+        }
+
+        public void mensaje()
+        {
+            Console.WriteLine("hay {0} lineas", contador);
+        }
+
+        //la idea es cerrar la conexion de la aplicación con el archivo de texto
+        //porque está consumiendo recursos "archivo = new StreamReader(@""); utilizaremos el destructor
+       
+        //el destructor debe tener el mismo nombre del constructor
+        ~ManejoArchivos()
+        {
+            archivo.Close();
+        }
+    }
+}
+
+
+---------------------------
+A TENER EN CUENTA: 
+
+- Los destructores solo se usan en clases
+- Cada clase solo puede tener un destructor
+- Los destructores no se heredan ni sobrecargan
+- Los destructores no se llaman, son invocados automaticamente
+- los destructores no tienen modificadores de acceso ni parametros
+
+
+------------------------------------------------
+Genericos (Programación Generica)               +
+						+
+--------------------------------------------------
+Consiste en crear clases que van a permitir manejar cualquier tipo de objeto
+crear una clase string que sea capaz de manejar cualquier objeto 
+- Reutilización de codigos 
+
+EjemploClase <String> archivos= new EjemploClase<String>();
+
+EjemploClase <File> archivos= new EjemploClase<File>();
+
+
+¿Podemos hacer lo mismo sin programación Generica? 
+
+//podriamos hacerlo por herencia de la superclase Object
+Object -> Inconvenientes : 
+			1. Uso continuo de casting 
+			2. Compilación del codigo. 
+			3. No posibilidad de comprobación de errores 
+
+
+La programación generica solventa estos inconvenientes. 
+
+- Mayor sencillez de codigo 
+- Reutilización de codigo en numerosos escenarios 
+- Comprobación de errores en tiempo de compilación 
+
+----------------------------------------------------------------
+Ejemplo sin programacion generica sin genericos 
+
+utilizando herencia de la superclase object:
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //7. Ejecutarla 
+            AlmacenaObjetos miAlmacen = new AlmacenaObjetos(4); //le indicamos por instancia el numero de elementos que queremos
+            //agregar un objeto de tipo string por ejeemplo: 
+            miAlmacen.agregar("Juan");
+            miAlmacen.agregar("Pablo");
+            miAlmacen.agregar("JoJo");
+
+            //la variable persona me va a mostrar lo que hay en la posición 2 del arreglo 
+
+            //String nombrePersona = (archivos.getElemento(2)); 
+            /*Nos genera un error porque no se puede almacenar un Object en una variable tipo String 
+             * nos obliga a utilizar casting para almacenarlo */
+
+            String nombrePersona = (String)miAlmacen.getElemento(2); //forma correcta agregando (String)
+            Console.WriteLine(nombrePersona);
+            
+        }
+    }
+    //1.
+    class AlmacenaObjetos
+    {
+        //2. constructor
+        public AlmacenaObjetos(int z)
+        {
+            //4. 
+            datosElemento = new object[z]; //datos elemento = new objecto de z que es el parametro
+                                           //que le estamos pasando al constructor y que vamos a instanciar
+            
+
+        }
+        //5. metodo para agregar elementos
+        public void agregar(Object obj)
+        {
+            datosElemento[i] = obj; //en datos elemento va a almacenar el objeto que le de por parametro obj
+            i++; //despues incrementar i en 1 
+        }
+
+        //6. metodo para mostrar elementos 
+        public Object getElemento(int i)
+        {
+            return datosElemento[i]; //nos devolverá el objeto que le indiquemos por parametro
+        }
+
+        //3. campos encapsulados 
+        private Object[] datosElemento;  //quiero que el array almacene cualquier tipo de datos
+
+        private int i = 0; //contador iniciado en 0 almacenando posiciones de arrays en un elemento
+    }
+}
+
+
+
+
+--------------------------------------------------------------------------
+
+namespace genericos1
+    //SIN UTILIZAR GENERICOS (PROGRAMACIÓN GENERICA) 
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //7. Ejecutarla 
+            AlmacenaObjetos miAlmacen = new AlmacenaObjetos(4); //le indicamos por instancia el numero de elementos que queremos
+            //agregar un objeto de tipo string por ejeemplo: 
+            miAlmacen.agregar("Juan");
+            miAlmacen.agregar("Pablo");
+            miAlmacen.agregar("JoJo");
+
+            //la variable persona me va a mostrar lo que hay en la posición 2 del arreglo 
+
+            //String nombrePersona = (archivos.getElemento(2)); 
+            /*Nos genera un error porque no se puede almacenar un Object en una variable tipo String 
+             * nos obliga a utilizar casting para almacenarlo */
+
+            String nombrePersona = (String)miAlmacen.getElemento(2); //forma correcta agregando (String)
+            Console.WriteLine(nombrePersona);
+
+
+            miAlmacen.agregar(new Empleado(1500));
+            // Casting: 
+            //Empleado salarioEmpleado = (Empleado)miAlmacen.getElemento(2);
+            //Console.WriteLine(salarioEmpleado.getSalario());
+        }
+    }
+    //1.
+    class AlmacenaObjetos
+    {
+        //2. constructor
+        public AlmacenaObjetos(int z)
+        {
+            //4. 
+            datosElemento = new object[z]; //datos elemento = new objecto de z que es el parametro
+                                           //que le estamos pasando al constructor y que vamos a instanciar
+            
+
+        }
+        //5. metodo para agregar elementos
+        public void agregar(Object obj)
+        {
+            datosElemento[i] = obj; //en datos elemento va a almacenar el objeto que le de por parametro obj
+            i++; //despues incrementar i en 1 
+        }
+
+        //6. metodo para mostrar elementos 
+        public Object getElemento(int i)
+        {
+            return datosElemento[i]; //nos devolverá el objeto que le indiquemos por parametro
+        }
+
+        //3. campos encapsulados 
+        private Object[] datosElemento;  //quiero que el array almacene cualquier tipo de datos
+
+        private int i = 0; //contador iniciado en 0 almacenando posiciones de arrays en un elemento
+    
+   
+    }
+
+    class Empleado
+    {
+        public Empleado(double salario)
+        {
+            this.salario = salario; //campo de clase salario será igual a lo que almacenemos por parametro salario
+        }
+
+        public double getSalario()
+        {
+            return salario;  //metodo get para devolver salario 
+        }
+        
+        private double salario; 
+    }
+
+    
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+CLASE GENERICA : 
+
+
+namespace genericos2_II
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //7. Ejecutarla 
+            //AlmacenaObjetos<Empleado> miAlmacen = new AlmacenaObjetos<Empleado>(4); //le indicamos por instancia el numero de elementos que queremos
+            AlmacenaObjetos<String> miAlmacen = new AlmacenaObjetos<String>(4);
+            //agregar un objeto de tipo string por ejeemplo: 
+
+            miAlmacen.agregar("Juan");
+            miAlmacen.agregar("Pablo");
+            miAlmacen.agregar("JoJo");
+
+            //la variable persona me va a mostrar lo que hay en la posición 2 del arreglo 
+
+            //String nombrePersona = (archivos.getElemento(2)); 
+            /*Nos genera un error porque no se puede almacenar un Object en una variable tipo String 
+             * nos obliga a utilizar casting para almacenarlo */
+
+            String nombrePersona = miAlmacen.getElemento(2); //forma correcta agregando (String)
+            Console.WriteLine(nombrePersona);
+
+            // Casting: 
+            //Empleado salarioEmpleado = (Empleado)miAlmacen.getElemento(2);
+            //Console.WriteLine(salarioEmpleado.getSalario());
+        }
+    }
+    //1.
+    class AlmacenaObjetos<T>
+    {
+        //2. constructor
+        public AlmacenaObjetos(int z)
+        {
+            //4. 
+            datosElemento = new T[z]; //datos elemento = new objecto de z que es el parametro
+                                           //que le estamos pasando al constructor y que vamos a instanciar
+
+
+        }
+        //5. metodo para agregar elementos
+        public void agregar(T obj)
+        {
+            datosElemento[i] = obj; //en datos elemento va a almacenar el objeto que le de por parametro obj
+            i++; //despues incrementar i en 1 
+        }
+
+        //6. metodo para mostrar elementos 
+        public T getElemento(int i)
+        {
+            return datosElemento[i]; //nos devolverá el objeto que le indiquemos por parametro
+        }
+
+        //3. campos encapsulados 
+        private T[] datosElemento;  //quiero que el array almacene cualquier tipo de datos
+
+        private int i = 0; //contador iniciado en 0 almacenando posiciones de arrays en un elemento
+
+
+    }
+
+    class Empleado
+    {
+        public Empleado(double salario)
+        {
+            this.salario = salario; //campo de clase salario será igual a lo que almacenemos por parametro salario
+        }
+
+        public double getSalario()
+        {
+            return salario;  //metodo get para devolver salario 
+        }
+
+        private double salario;
+    }
+
+
+}
+
+
+
+
+--------------------------------------------------------------------------------
+Genericos 3 con restricciones 
+
+Si no queremos que un objeto se adapte a una clase generica utilizaremos estas restricciones 
+
+por ejemplo 
+
+AlmacenEmpleados<T>                        X Jubilado
+                                           X Estudiante 
+Secretaria>  getSalario()
+
+Director> getSalario()
+
+Profesor> getSalario()
+
+Electricista> getSalario()
+
+La restriccion es que todos deben de tener salario 
+
+
+
+
+-----------------------------------------------------------------------------
+
+namespace genericos3_restricciones
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //almacena elementos de tipo Director, nombreinstancia =new AlmacenEmpleados de director van a ser 3
+            AlmacenEmpeados<Director> miEmpleado = new AlmacenEmpeados<Director>(3);
+
+            //3 directores:
+            //agregamos un nuevo director con su respectivo salario 
+            miEmpleado.agregar(new Director(4500));
+            //agregamos un nuevo director con su respectivo salario 
+            miEmpleado.agregar(new Director(5500));
+            //agregamos un nuevo director con su respectivo salario 
+            miEmpleado.agregar(new Director(6500));
+
+            //RESTRICCIONES:
+            //no podemos agregar clase estudiante 
+            //AlmacenEmpeados<Estudiante> miEmpleado = new AlmacenEmpeados<Estudiante>(3);
+            //no implementa la interfaz ni salario
+        }
+
+
+
+    }
+
+    class AlmacenEmpeados<T> where T: IParaEmpleados //restriccion
+    {
+
+        public AlmacenEmpeados(int z) //recibe por parametro un entero
+        {
+            datosEmpleado = new T[z]; //es un array de genericos con z elementos
+        }
+
+        public void agregar( T obj) //metodo de agregar elementos de cualquier tipo obj
+        {
+            datosEmpleado[i] = obj; //es igual al metodo que le pasamos por parametro
+
+            i++; //incrementamos la variable en 1, almacena un objeto en la posicion 0, luego 1 segun vayamos almacenando 
+        }
+
+        public T getEmpleado(int i)
+        {
+            return datosEmpleado[i]; //nos devuelve una posicion del array de genericos
+        }
+
+        private int i = 0; //variable contador
+
+        private T[] datosEmpleado;  //array de tipo generico para almacenar objetos de diferente tipo
+        
+    }
+
+
+
+    class Director: IParaEmpleados
+    {
+        public Director(double salario)
+        {
+            this.salario = salario; 
+        }
+
+        private double salario;
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+    }
+
+
+
+
+    class Secretaria: IParaEmpleados
+    {
+        public Secretaria(double salario)
+        {
+            this.salario = salario;
+        }
+
+        private double salario;
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+    }
+
+
+
+    class Electricista: IParaEmpleados
+    {
+        public Electricista(double salario)
+        {
+            this.salario = salario;
+        }
+
+        private double salario;
+
+        public double getSalario()
+        {
+            return salario; 
+        }
+    }
+
+
+    class Estudiante //no está heredando la interfaz IParaEmpleados ni salario
+    {
+        public Estudiante(double edad)
+        {
+
+            this.edad = edad; 
+        }
+
+        public double getEdad()
+        {
+            return edad;
+        }
+        
+        
+        private double edad; 
+    }
+
+
+
+
+    interface IParaEmpleados
+    {
+        double getSalario();  //obligo a que todas las clases que implementen esta interfaz
+                              //desarrollen el metodo getSalario()
+    }
+}
+
+
+--------------------------------------------------------------
+COLECCIONES 1
+
+.Son clases que pertenecen al namespace System.Collection.Generic 
+.Estas clases permiten almacenar elementos 
+.Son clases genericas( como indica el namespace) 
+
+No tienen las limitaciones de arrays( a cambio de mayor consumo de recursos) permiten:
+
+-Ordenar
+-Añadir
+-Eliminar
+-Buscar
+-Etc
+
+
+
+
+Coleccion: 
+
+List<T>   Paracidos a los array pero con metodos adicionales para agregar, eliminar, ordenar, busscar etc
+
+Queue<T>  Las "colas". Un elemento entra y uno sale. Primero en entrar- primero en salir 
+
+Stack<T>   Parecido a Queue pero con algunas diferencias. Primero en entrar ultimo en salir 
+
+LinkedList<T> Comportamiento como Queue o Stack pero con acceso aleatorio 
+
+HashSet<T< Listas de valores sin ordenar 
+
+Dictionary<Tkey, Tvalue>  Almacena elementos con estructura de clase-valor
+
+SortedList<Tkey, Tvalue> Igual que los Dictionary pero ordenados
+
+
+
+
+
+EJEMPLOS: 
+
+namespace colections1_Colecciones1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //List, tipo de elemento a almacenar, nombre, new list tipo elemento
+            List<int> numeros = new List<int>(); //Declarar una liista (coleccion de tipo list)
+            /*
+                        numeros.Add(5); //agregar un elemento 
+                        numeros.Add(7); //agregar un elemento 
+                        numeros.Add(9); //agregar un elemento 
+            */
+
+
+            //podriamos crear un array de enteros que agregue elementos al List
+            int[] listaNumeros = new int[] { 3, 6, 8, 10, 50 };
+
+            for (int i = 0; i < 5; i++)
+            {
+                numeros.Add(listaNumeros[i]);
+            }
+
+
+
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(numeros[i]);
+            }
+        }
+    }
+}
+
+
+
+---------------------------------------------------------------------------
+namespace colections1_Colecciones1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //List, tipo de elemento a almacenar, nombre, new list tipo elemento
+            List<int> numeros = new List<int>(); //Declarar una liista (coleccion de tipo list)
+            /*
+                        numeros.Add(5); //agregar un elemento 
+                        numeros.Add(7); //agregar un elemento 
+                        numeros.Add(9); //agregar un elemento 
+            */
+
+
+
+
+
+
+
+            /*//podriamos crear un array de enteros que agregue elementos al List
+             int[] listaNumeros = new int[] { 3, 6, 8, 10, 50 };
+
+             for (int i = 0; i < 5; i++)
+             {
+                 numeros.Add(listaNumeros[i]);
+             }
+
+
+
+
+
+             for (int i = 0; i < 5; i++)
+             {
+                 Console.WriteLine(numeros[i]);
+             }
+            */
+
+
+
+
+            //List<int> numeros = new List<int>();
+            Console.WriteLine("¿Cuantos elementos quieres introducir?");
+            int elemento = Int32.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            //elementos que almacene el usuario
+            for ( int i= 0; i<elemento; i++)
+            {
+                numeros.Add(Int32.Parse(Console.ReadLine()));
+            }
+
+            Console.WriteLine("Elementos Almacenados: ");
+
+            //lee elementos 
+            for (int i = 0; i < elemento; i++)
+            {
+              
+                Console.WriteLine(numeros[i]);
+            }
+
+
+
+
+
+        }
+    }
+}
+
+
+---------------------------------------------------------------
+
+LinkedList    vs     List
+
+
+List: 
+	Dato
+	Dato
+	Dato
+	Dato
+	Dato
+
+Se almacenan los elementos en posiciones juntas por lo tanto si se elimina un elemento
+internamente los demás elementos toman su lugar, se desplazan una posicion hacia arriba
+si se elimina un elemento
+
+
+LinkedList
+
+     Enlace ->       Dato       <- Enlace
+                    (Nodo)
+
+     Enlace ->       Dato       <- Enlace
+                    (Nodo)
+
+     Enlace ->       Dato       <- Enlace
+                    (Nodo)
+
+     Enlace ->       Dato       <- Enlace
+                    (Nodo)
+
+
+Si eliminamos un dato en concreto, el que apuntaba al anterior ahora solo apunta al siguiente nodo
+en vez de tomar el lugar de este elemento
