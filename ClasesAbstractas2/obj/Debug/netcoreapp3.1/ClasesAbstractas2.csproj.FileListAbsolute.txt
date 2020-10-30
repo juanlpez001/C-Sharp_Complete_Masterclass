@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.exe
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.deps.json
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.dll
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\bin\Debug\netcoreapp3.1\ClasesAbstractas2.pdb
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.dll
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.pdb
+C:\Users\ORLANDO\source\repos\ClasesAbstractas2\obj\Debug\netcoreapp3.1\ClasesAbstractas2.genruntimeconfig.cache

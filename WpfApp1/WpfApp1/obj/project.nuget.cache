@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E7y+CRbbo5JFL9fHlRmlXoyb50N+6TUTSPCdXZW3G1F7Phm1yWoCgBBzljrHm0GkhrlPf9AymMRC0vKYKdIqGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO LOPEZ\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO LOPEZ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

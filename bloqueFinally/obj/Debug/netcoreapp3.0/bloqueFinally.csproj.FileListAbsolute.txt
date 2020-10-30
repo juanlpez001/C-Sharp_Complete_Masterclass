@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.exe
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.deps.json
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.runtimeconfig.json
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.runtimeconfig.dev.json
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.dll
+F:\C#\150Exercises-master\bloqueFinally\bin\Debug\netcoreapp3.0\bloqueFinally.pdb
+F:\C#\150Exercises-master\bloqueFinally\obj\Debug\netcoreapp3.0\bloqueFinally.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\bloqueFinally\obj\Debug\netcoreapp3.0\bloqueFinally.AssemblyInfo.cs
+F:\C#\150Exercises-master\bloqueFinally\obj\Debug\netcoreapp3.0\bloqueFinally.dll
+F:\C#\150Exercises-master\bloqueFinally\obj\Debug\netcoreapp3.0\bloqueFinally.pdb
+F:\C#\150Exercises-master\bloqueFinally\obj\Debug\netcoreapp3.0\bloqueFinally.csprojAssemblyReference.cache

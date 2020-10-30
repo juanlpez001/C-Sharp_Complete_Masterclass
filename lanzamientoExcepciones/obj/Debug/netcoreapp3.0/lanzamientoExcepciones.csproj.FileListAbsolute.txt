@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.exe
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.deps.json
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.runtimeconfig.json
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.runtimeconfig.dev.json
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.dll
+F:\C#\150Exercises-master\lanzamientoExcepciones\bin\Debug\netcoreapp3.0\lanzamientoExcepciones.pdb
+F:\C#\150Exercises-master\lanzamientoExcepciones\obj\Debug\netcoreapp3.0\lanzamientoExcepciones.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\lanzamientoExcepciones\obj\Debug\netcoreapp3.0\lanzamientoExcepciones.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\lanzamientoExcepciones\obj\Debug\netcoreapp3.0\lanzamientoExcepciones.AssemblyInfo.cs
+F:\C#\150Exercises-master\lanzamientoExcepciones\obj\Debug\netcoreapp3.0\lanzamientoExcepciones.dll
+F:\C#\150Exercises-master\lanzamientoExcepciones\obj\Debug\netcoreapp3.0\lanzamientoExcepciones.pdb

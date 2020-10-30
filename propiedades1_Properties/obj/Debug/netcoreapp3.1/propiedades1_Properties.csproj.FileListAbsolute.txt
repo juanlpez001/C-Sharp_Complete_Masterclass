@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.exe
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.deps.json
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.dll
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\bin\Debug\netcoreapp3.1\propiedades1_Properties.pdb
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.dll
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.pdb
+C:\Users\ORLANDO\source\repos\propiedades1_Properties\obj\Debug\netcoreapp3.1\propiedades1_Properties.genruntimeconfig.cache

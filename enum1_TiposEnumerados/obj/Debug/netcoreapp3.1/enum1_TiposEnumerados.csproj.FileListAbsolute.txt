@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.exe
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.deps.json
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.dll
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\bin\Debug\netcoreapp3.1\enum1_TiposEnumerados.pdb
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.dll
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.pdb
+C:\Users\ORLANDO\source\repos\enum1_TiposEnumerados\obj\Debug\netcoreapp3.1\enum1_TiposEnumerados.genruntimeconfig.cache

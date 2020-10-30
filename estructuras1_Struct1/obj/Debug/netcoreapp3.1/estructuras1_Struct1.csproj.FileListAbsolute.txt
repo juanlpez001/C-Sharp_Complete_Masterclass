@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.exe
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.deps.json
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.dll
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\bin\Debug\netcoreapp3.1\estructuras1_Struct1.pdb
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.dll
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.pdb
+C:\Users\ORLANDO\source\repos\estructuras1_Struct1\obj\Debug\netcoreapp3.1\estructuras1_Struct1.genruntimeconfig.cache

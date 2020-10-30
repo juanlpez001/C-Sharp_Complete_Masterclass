@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\numAleatorioTryCatch\obj\Debug\netcoreapp3.0\numAleatorioTryCatch.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\numAleatorioTryCatch\obj\Debug\netcoreapp3.0\numAleatorioTryCatch.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\numAleatorioTryCatch\obj\Debug\netcoreapp3.0\numAleatorioTryCatch.AssemblyInfo.cs
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.exe
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.deps.json
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.runtimeconfig.json
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.runtimeconfig.dev.json
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.dll
+F:\C#\150Exercises-master\numAleatorioTryCatch\bin\Debug\netcoreapp3.0\numAleatorioTryCatch.pdb
+F:\C#\150Exercises-master\numAleatorioTryCatch\obj\Debug\netcoreapp3.0\numAleatorioTryCatch.dll
+F:\C#\150Exercises-master\numAleatorioTryCatch\obj\Debug\netcoreapp3.0\numAleatorioTryCatch.pdb

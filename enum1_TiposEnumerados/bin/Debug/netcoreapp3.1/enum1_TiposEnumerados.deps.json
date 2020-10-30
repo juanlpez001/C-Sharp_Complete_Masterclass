@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "enum1_TiposEnumerados/1.0.0": {
+        "runtime": {
+          "enum1_TiposEnumerados.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "enum1_TiposEnumerados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.exe
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.deps.json
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.runtimeconfig.json
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.runtimeconfig.dev.json
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.dll
+F:\C#\Helloworld\Helloworld\bin\Debug\netcoreapp3.0\Helloworld.pdb
+F:\C#\Helloworld\Helloworld\obj\Debug\netcoreapp3.0\Helloworld.AssemblyInfoInputs.cache
+F:\C#\Helloworld\Helloworld\obj\Debug\netcoreapp3.0\Helloworld.AssemblyInfo.cs
+F:\C#\Helloworld\Helloworld\obj\Debug\netcoreapp3.0\Helloworld.dll
+F:\C#\Helloworld\Helloworld\obj\Debug\netcoreapp3.0\Helloworld.pdb
+F:\C#\HelloWorld\Helloworld\obj\Debug\netcoreapp3.0\Helloworld.csprojAssemblyReference.cache

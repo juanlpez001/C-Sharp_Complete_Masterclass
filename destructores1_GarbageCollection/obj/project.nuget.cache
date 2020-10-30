@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CVtE01ozdlaE23J9O4w7+nSMkUx3rIpVU6DGYnYhee0stX8PvGIDpg+tazoHorP8fo6iLvu10bP2HueUWFv84g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO\\source\\repos\\destructores1_GarbageCollection\\destructores1_GarbageCollection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

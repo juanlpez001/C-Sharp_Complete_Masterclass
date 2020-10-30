@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0fAH8V4xZNDbrbzAEGphUdcEUMP/+0O3th3lTz5Oe736iHZH6KvPXAANK/8tKzXv2icwN46ij7DHkCx2fZg2UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO LOPEZ\\source\\repos\\Polimorfismo\\Polimorfismo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO LOPEZ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

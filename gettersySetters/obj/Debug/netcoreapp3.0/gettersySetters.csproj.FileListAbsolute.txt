@@ -1,0 +1,11 @@
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.exe
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.deps.json
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.runtimeconfig.json
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.runtimeconfig.dev.json
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.dll
+F:\C#\gettersySetters\bin\Debug\netcoreapp3.0\gettersySetters.pdb
+F:\C#\gettersySetters\obj\Debug\netcoreapp3.0\gettersySetters.csprojAssemblyReference.cache
+F:\C#\gettersySetters\obj\Debug\netcoreapp3.0\gettersySetters.AssemblyInfoInputs.cache
+F:\C#\gettersySetters\obj\Debug\netcoreapp3.0\gettersySetters.AssemblyInfo.cs
+F:\C#\gettersySetters\obj\Debug\netcoreapp3.0\gettersySetters.dll
+F:\C#\gettersySetters\obj\Debug\netcoreapp3.0\gettersySetters.pdb

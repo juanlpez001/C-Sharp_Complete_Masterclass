@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.exe
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.deps.json
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.runtimeconfig.json
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.runtimeconfig.dev.json
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.dll
+F:\C#\150Exercises-master\Arrays6_ConParametros\bin\Debug\netcoreapp3.0\Arrays6_ConParametros.pdb
+F:\C#\150Exercises-master\Arrays6_ConParametros\obj\Debug\netcoreapp3.0\Arrays6_ConParametros.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\Arrays6_ConParametros\obj\Debug\netcoreapp3.0\Arrays6_ConParametros.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\Arrays6_ConParametros\obj\Debug\netcoreapp3.0\Arrays6_ConParametros.AssemblyInfo.cs
+F:\C#\150Exercises-master\Arrays6_ConParametros\obj\Debug\netcoreapp3.0\Arrays6_ConParametros.dll
+F:\C#\150Exercises-master\Arrays6_ConParametros\obj\Debug\netcoreapp3.0\Arrays6_ConParametros.pdb

@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.exe
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.deps.json
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.runtimeconfig.json
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.runtimeconfig.dev.json
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.dll
+F:\C#\150Exercises-master\llamadasYClaseMath\bin\Debug\netcoreapp3.0\llamadasYClaseMath.pdb
+F:\C#\150Exercises-master\llamadasYClaseMath\obj\Debug\netcoreapp3.0\llamadasYClaseMath.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\llamadasYClaseMath\obj\Debug\netcoreapp3.0\llamadasYClaseMath.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\llamadasYClaseMath\obj\Debug\netcoreapp3.0\llamadasYClaseMath.AssemblyInfo.cs
+F:\C#\150Exercises-master\llamadasYClaseMath\obj\Debug\netcoreapp3.0\llamadasYClaseMath.dll
+F:\C#\150Exercises-master\llamadasYClaseMath\obj\Debug\netcoreapp3.0\llamadasYClaseMath.pdb

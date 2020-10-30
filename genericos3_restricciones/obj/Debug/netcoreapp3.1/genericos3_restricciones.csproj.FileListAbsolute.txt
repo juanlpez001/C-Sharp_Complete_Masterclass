@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.exe
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.deps.json
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.dll
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\bin\Debug\netcoreapp3.1\genericos3_restricciones.pdb
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.dll
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.pdb
+C:\Users\ORLANDO\source\repos\genericos3_restricciones\obj\Debug\netcoreapp3.1\genericos3_restricciones.genruntimeconfig.cache

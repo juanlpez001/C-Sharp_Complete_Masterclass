@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.exe
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.deps.json
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.runtimeconfig.json
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.runtimeconfig.dev.json
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.dll
+F:\C#\150Exercises-master\clasesAnonimasPOO\bin\Debug\netcoreapp3.0\clasesAnonimasPOO.pdb
+F:\C#\150Exercises-master\clasesAnonimasPOO\obj\Debug\netcoreapp3.0\clasesAnonimasPOO.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\clasesAnonimasPOO\obj\Debug\netcoreapp3.0\clasesAnonimasPOO.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\clasesAnonimasPOO\obj\Debug\netcoreapp3.0\clasesAnonimasPOO.AssemblyInfo.cs
+F:\C#\150Exercises-master\clasesAnonimasPOO\obj\Debug\netcoreapp3.0\clasesAnonimasPOO.dll
+F:\C#\150Exercises-master\clasesAnonimasPOO\obj\Debug\netcoreapp3.0\clasesAnonimasPOO.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "me3mjSRulObCWA9coEiYF1ehbEFG9awhjYTrgEaF6ND8XX3SHz7eaoxmBgVIqEon6u0WbLdtF/DwZyEcSFsf1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO\\source\\repos\\Interfaces_1\\Interfaces_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.exe
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.deps.json
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.runtimeconfig.json
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.runtimeconfig.dev.json
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.dll
+F:\C#\150Exercises-master\Arrays4_BucleForeach\bin\Debug\netcoreapp3.0\Arrays4_BucleForeach.pdb
+F:\C#\150Exercises-master\Arrays4_BucleForeach\obj\Debug\netcoreapp3.0\Arrays4_BucleForeach.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\Arrays4_BucleForeach\obj\Debug\netcoreapp3.0\Arrays4_BucleForeach.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\Arrays4_BucleForeach\obj\Debug\netcoreapp3.0\Arrays4_BucleForeach.AssemblyInfo.cs
+F:\C#\150Exercises-master\Arrays4_BucleForeach\obj\Debug\netcoreapp3.0\Arrays4_BucleForeach.dll
+F:\C#\150Exercises-master\Arrays4_BucleForeach\obj\Debug\netcoreapp3.0\Arrays4_BucleForeach.pdb

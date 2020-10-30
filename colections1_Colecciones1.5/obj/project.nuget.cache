@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gsd7MgpoVLkHR8um/25Q0ZIhDrgTyBRyqbP1vv5j6ukBklbG7kyUtANGQs9GXtcNR4F9lJ0laBm3kb4po5e7IQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO\\source\\repos\\colections1_Colecciones1.5\\colections1_Colecciones1.5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

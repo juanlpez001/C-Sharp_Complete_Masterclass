@@ -1,0 +1,10 @@
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.exe
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.deps.json
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.runtimeconfig.json
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.runtimeconfig.dev.json
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.dll
+F:\C#\150Exercises-master\Arrays5_BucleForeach\bin\Debug\netcoreapp3.0\Arrays5_BucleForeach.pdb
+F:\C#\150Exercises-master\Arrays5_BucleForeach\obj\Debug\netcoreapp3.0\Arrays5_BucleForeach.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\Arrays5_BucleForeach\obj\Debug\netcoreapp3.0\Arrays5_BucleForeach.AssemblyInfo.cs
+F:\C#\150Exercises-master\Arrays5_BucleForeach\obj\Debug\netcoreapp3.0\Arrays5_BucleForeach.dll
+F:\C#\150Exercises-master\Arrays5_BucleForeach\obj\Debug\netcoreapp3.0\Arrays5_BucleForeach.pdb

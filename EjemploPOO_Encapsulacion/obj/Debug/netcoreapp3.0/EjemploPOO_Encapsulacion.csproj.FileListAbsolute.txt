@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.exe
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.deps.json
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.runtimeconfig.json
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.runtimeconfig.dev.json
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.dll
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\bin\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.pdb
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\obj\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\obj\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.AssemblyInfo.cs
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\obj\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.dll
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\obj\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.pdb
+F:\C#\150Exercises-master\EjemploPOO_Encapsulacion\obj\Debug\netcoreapp3.0\EjemploPOO_Encapsulacion.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.exe
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.deps.json
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.runtimeconfig.json
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.runtimeconfig.dev.json
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.dll
+F:\C#\150Exercises-master\Herencia\bin\Debug\netcoreapp3.0\Herencia.pdb
+F:\C#\150Exercises-master\Herencia\obj\Debug\netcoreapp3.0\Herencia.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\Herencia\obj\Debug\netcoreapp3.0\Herencia.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\Herencia\obj\Debug\netcoreapp3.0\Herencia.AssemblyInfo.cs
+F:\C#\150Exercises-master\Herencia\obj\Debug\netcoreapp3.0\Herencia.dll
+F:\C#\150Exercises-master\Herencia\obj\Debug\netcoreapp3.0\Herencia.pdb

@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.exe
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.deps.json
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.dll
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\bin\Debug\netcoreapp3.1\destructores1_GarbageCollection.pdb
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.dll
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.pdb
+C:\Users\ORLANDO\source\repos\destructores1_GarbageCollection\obj\Debug\netcoreapp3.1\destructores1_GarbageCollection.genruntimeconfig.cache

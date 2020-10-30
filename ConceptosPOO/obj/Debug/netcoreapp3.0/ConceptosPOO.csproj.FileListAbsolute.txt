@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.exe
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.deps.json
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.runtimeconfig.json
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.runtimeconfig.dev.json
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.dll
+F:\C#\150Exercises-master\ConceptosPOO\bin\Debug\netcoreapp3.0\ConceptosPOO.pdb
+F:\C#\150Exercises-master\ConceptosPOO\obj\Debug\netcoreapp3.0\ConceptosPOO.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\ConceptosPOO\obj\Debug\netcoreapp3.0\ConceptosPOO.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\ConceptosPOO\obj\Debug\netcoreapp3.0\ConceptosPOO.AssemblyInfo.cs
+F:\C#\150Exercises-master\ConceptosPOO\obj\Debug\netcoreapp3.0\ConceptosPOO.dll
+F:\C#\150Exercises-master\ConceptosPOO\obj\Debug\netcoreapp3.0\ConceptosPOO.pdb

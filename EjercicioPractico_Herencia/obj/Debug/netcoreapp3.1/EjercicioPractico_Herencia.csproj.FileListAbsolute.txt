@@ -1,0 +1,13 @@
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.exe
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.deps.json
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.runtimeconfig.json
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.runtimeconfig.dev.json
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.dll
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\bin\Debug\netcoreapp3.1\EjercicioPractico_Herencia.pdb
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.csprojAssemblyReference.cache
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.AssemblyInfoInputs.cache
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.AssemblyInfo.cs
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.dll
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.pdb
+C:\Users\ORLANDO LOPEZ\source\repos\EjercicioPractico_Herencia\obj\Debug\netcoreapp3.1\EjercicioPractico_Herencia.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mC6PuiaKFnPv5/j9xilsc4orpER7EOEROCON36TlD3Fv5ixHZwY01RUj1F73Wc9OBZbd5JrJuQbF12pIWdjh2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ORLANDO LOPEZ\\source\\repos\\Herencia.ModificadoresDeAcceso\\Herencia.ModificadoresDeAcceso.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORLANDO LOPEZ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

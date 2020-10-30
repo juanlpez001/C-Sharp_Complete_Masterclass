@@ -1,0 +1,11 @@
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.exe
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.deps.json
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.runtimeconfig.json
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.runtimeconfig.dev.json
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.dll
+F:\C#\150Exercises-master\EjemploPOO\bin\Debug\netcoreapp3.0\EjemploPOO.pdb
+F:\C#\150Exercises-master\EjemploPOO\obj\Debug\netcoreapp3.0\EjemploPOO.csprojAssemblyReference.cache
+F:\C#\150Exercises-master\EjemploPOO\obj\Debug\netcoreapp3.0\EjemploPOO.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\EjemploPOO\obj\Debug\netcoreapp3.0\EjemploPOO.AssemblyInfo.cs
+F:\C#\150Exercises-master\EjemploPOO\obj\Debug\netcoreapp3.0\EjemploPOO.dll
+F:\C#\150Exercises-master\EjemploPOO\obj\Debug\netcoreapp3.0\EjemploPOO.pdb

@@ -1,0 +1,12 @@
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\bin\Debug\AndreaPracticaMDI.exe.config
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\bin\Debug\AndreaPracticaMDI.exe
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\bin\Debug\AndreaPracticaMDI.pdb
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.Form1.resources
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.Form2.resources
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.Properties.Resources.resources
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.csproj.GenerateResource.cache
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.exe
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.pdb
+C:\Users\ORLANDO\source\repos\AndreaPracticaMDI\obj\Debug\AndreaPracticaMDI.Form3.resources

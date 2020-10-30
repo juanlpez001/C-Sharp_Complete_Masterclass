@@ -1,0 +1,13 @@
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.exe
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.deps.json
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.runtimeconfig.json
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.runtimeconfig.dev.json
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.dll
+C:\Users\ORLANDO\source\repos\Interfaces_4\bin\Debug\netcoreapp3.1\Interfaces_4.pdb
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.csprojAssemblyReference.cache
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.AssemblyInfoInputs.cache
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.AssemblyInfo.cs
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.csproj.CoreCompileInputs.cache
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.dll
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.pdb
+C:\Users\ORLANDO\source\repos\Interfaces_4\obj\Debug\netcoreapp3.1\Interfaces_4.genruntimeconfig.cache

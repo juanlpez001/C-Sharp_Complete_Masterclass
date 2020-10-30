@@ -1,0 +1,10 @@
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.exe
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.deps.json
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.runtimeconfig.json
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.runtimeconfig.dev.json
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.dll
+F:\C#\150Exercises-master\exceptionsII\bin\Debug\netcoreapp3.0\UsoChecked.pdb
+F:\C#\150Exercises-master\exceptionsII\obj\Debug\netcoreapp3.0\UsoChecked.AssemblyInfoInputs.cache
+F:\C#\150Exercises-master\exceptionsII\obj\Debug\netcoreapp3.0\UsoChecked.AssemblyInfo.cs
+F:\C#\150Exercises-master\exceptionsII\obj\Debug\netcoreapp3.0\UsoChecked.dll
+F:\C#\150Exercises-master\exceptionsII\obj\Debug\netcoreapp3.0\UsoChecked.pdb
